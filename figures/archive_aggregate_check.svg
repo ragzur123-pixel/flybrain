@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<rect width="1280" height="640" fill="#101a2c"/>
+<text x="72" y="71" fill="#e9f5ff" font-family="Segoe UI,Arial" font-size="36" font-weight="700">Archive-family consistency check</text>
+<text x="72" y="111" fill="#a9bfd4" font-family="Segoe UI,Arial" font-size="21">FAFB v783 · 19 preselected neurons · proofread graph vs original all-synapse aggregate</text>
+<rect x="72" y="150" width="355" height="126" rx="18" fill="#1a3041"/>
+<text x="96" y="216" fill="#29c1a5" font-family="Segoe UI,Arial" font-size="56" font-weight="700">56/56</text>
+<text x="96" y="252" fill="#d5e5ed" font-family="Segoe UI,Arial" font-size="19">comparable regions within bound</text>
+<rect x="462" y="150" width="355" height="126" rx="18" fill="#1a3041"/>
+<text x="486" y="216" fill="#ffc16e" font-family="Segoe UI,Arial" font-size="56" font-weight="700">2</text>
+<text x="486" y="252" fill="#d5e5ed" font-family="Segoe UI,Arial" font-size="19">UNASGD rows lack a counterpart</text>
+<rect x="852" y="150" width="355" height="126" rx="18" fill="#1a3041"/>
+<text x="876" y="216" fill="#29c1a5" font-family="Segoe UI,Arial" font-size="56" font-weight="700">0</text>
+<text x="876" y="252" fill="#d5e5ed" font-family="Segoe UI,Arial" font-size="19">bound violations where comparable</text>
+<circle cx="97" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="135" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="173" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="211" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="249" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="287" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="325" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="363" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="401" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="439" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="477" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="515" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="553" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="591" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="629" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="667" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="705" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="743" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="781" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="819" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="857" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="895" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="933" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="971" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="1009" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="1047" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="1085" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="1123" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="1161" cy="329" r="13" fill="#29c1a5"/>
+<circle cx="97" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="135" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="173" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="211" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="249" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="287" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="325" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="363" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="401" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="439" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="477" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="515" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="553" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="591" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="629" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="667" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="705" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="743" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="781" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="819" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="857" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="895" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="933" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="971" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="1009" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="1047" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="1085" cy="377" r="13" fill="#29c1a5"/>
+<circle cx="1123" cy="377" r="13" fill="#ffc16e"/>
+<circle cx="1161" cy="377" r="13" fill="#ffc16e"/>
+<text x="72" y="480" fill="#a9bfd4" font-family="Segoe UI,Arial" font-size="20">Each dot is one selected neuron × neuropil row. Teal = bound met; amber = region absent from aggregate.</text>
+<rect x="72" y="517" width="1135" height="78" rx="16" fill="#304047"/>
+<text x="96" y="551" fill="#ffffff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">P1 gate remains OPEN</text>
+<text x="96" y="580" fill="#d5e5ed" font-family="Segoe UI,Arial" font-size="18">This checks an archive subset bound. It does not resolve 10/10 current Codex count differences.</text>
+</svg>

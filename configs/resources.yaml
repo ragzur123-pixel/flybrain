@@ -1,0 +1,20 @@
+# Operational limits for acquiring and inspecting the selected v783 data.
+# Measured 2026-09-25; see docs/resource_plan.md. These are safety ceilings,
+# not experiment hyperparameters or a final training budget.
+version: 1
+dataset_id: fafb
+snapshot: 783
+download:
+  max_file_bytes: 1000000000
+  max_total_bytes: 1200000000
+  min_free_disk_bytes_after: 85899345920  # 80 GiB
+  timeout_seconds: 60
+  stream_chunk_bytes: 1048576
+processing:
+  max_process_memory_bytes: 4294967296  # 4 GiB
+  arrow_batch_rows: 50000
+  max_workers: 4
+storage:
+  max_temporary_bytes: 4294967296  # 4 GiB
+  max_derived_bytes: 5368709120    # 5 GiB
+  max_pilot_run_bytes: 5368709120  # 5 GiB

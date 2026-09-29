@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" role="img" aria-label="FAFB v783 local audit of ten candidate connection pairs">
+<rect width="1280" height="900" fill="#0b1220"/>
+<text x="60" y="66" fill="#f8fafc" font-size="32" font-family="Segoe UI, Arial" font-weight="700">FlyAI · connection audit preview</text>
+<text x="60" y="100" fill="#b7c5d8" font-size="17" font-family="Segoe UI, Arial">FAFB v783 · 10 directed candidate pairs · raw-file counts verified locally</text>
+<rect x="918" y="38" width="304" height="42" rx="21" fill="#3b2f16" stroke="#c58d2a"/>
+<text x="1070" y="65" fill="#ffcf7a" font-size="15" font-family="Segoe UI, Arial" text-anchor="middle">PORTAL CHECKS: 0 / 10</text>
+<text x="60" y="139" fill="#8fa3bd" font-size="14" font-family="Segoe UI, Arial">Forward bar uses pair-summed synapse count across neuropils. Reverse count is shown at right.</text>
+<line x1="60" y1="153" x2="1220" y2="153" stroke="#334155"/>
+<text x="60" y="178" fill="#91a7c3" font-size="13" font-family="Segoe UI, Arial" font-weight="700">PHOTORECEPTOR → OCG01</text>
+<text x="60" y="216" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">L photoreceptor  →  L OCG01</text>
+<rect x="460" y="199" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="199" width="43.5" height="21" rx="5" fill="#7dd3fc"/>
+<text x="970" y="216" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">37</text>
+<text x="1060" y="216" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 0</text>
+<text x="60" y="267" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">R photoreceptor  →  R OCG01</text>
+<rect x="460" y="250" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="250" width="30.6" height="21" rx="5" fill="#7dd3fc"/>
+<text x="970" y="267" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">26</text>
+<text x="1060" y="267" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 0</text>
+<text x="60" y="318" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">C photoreceptor  →  L OCG01</text>
+<rect x="460" y="301" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="301" width="18.8" height="21" rx="5" fill="#7dd3fc"/>
+<text x="970" y="318" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">16</text>
+<text x="1060" y="318" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 0</text>
+<text x="60" y="369" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">C photoreceptor  →  R OCG01</text>
+<rect x="460" y="352" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="352" width="18.8" height="21" rx="5" fill="#7dd3fc"/>
+<text x="970" y="369" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">16</text>
+<text x="1060" y="369" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 0</text>
+<text x="60" y="403" fill="#91a7c3" font-size="13" font-family="Segoe UI, Arial" font-weight="700">DIRECT PHOTORECEPTOR → DNp28</text>
+<text x="60" y="441" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">L photoreceptor  →  L DNp28</text>
+<rect x="460" y="424" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="424" width="17.6" height="21" rx="5" fill="#f9a8d4"/>
+<text x="970" y="441" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">15</text>
+<text x="1060" y="441" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 0</text>
+<text x="60" y="492" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">R photoreceptor  →  R DNp28</text>
+<rect x="460" y="475" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="475" width="41.1" height="21" rx="5" fill="#f9a8d4"/>
+<text x="970" y="492" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">35</text>
+<text x="1060" y="492" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 0</text>
+<text x="60" y="526" fill="#91a7c3" font-size="13" font-family="Segoe UI, Arial" font-weight="700">OCG01 → DESCENDING NEURON</text>
+<text x="60" y="564" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">L OCG01  →  L DNp20</text>
+<rect x="460" y="547" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="547" width="284.4" height="21" rx="5" fill="#a7f3d0"/>
+<text x="970" y="564" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">242</text>
+<text x="1060" y="564" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 10</text>
+<text x="60" y="615" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">R OCG01  →  R DNp20</text>
+<rect x="460" y="598" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="598" width="282.0" height="21" rx="5" fill="#a7f3d0"/>
+<text x="970" y="615" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">240</text>
+<text x="1060" y="615" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 18</text>
+<text x="60" y="666" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">L OCG01  →  L DNp22</text>
+<rect x="460" y="649" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="649" width="490.0" height="21" rx="5" fill="#c4b5fd"/>
+<text x="970" y="666" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">417</text>
+<text x="1060" y="666" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 2</text>
+<text x="60" y="717" fill="#e2e8f0" font-size="16" font-family="Segoe UI, Arial">R OCG01  →  R DNp22</text>
+<rect x="460" y="700" width="490" height="21" rx="5" fill="#1e293b"/>
+<rect x="460" y="700" width="369.0" height="21" rx="5" fill="#c4b5fd"/>
+<text x="970" y="717" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial" font-weight="700">314</text>
+<text x="1060" y="717" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">reverse 1</text>
+<line x1="60" y1="815" x2="1220" y2="815" stroke="#334155"/>
+<text x="60" y="842" fill="#ffcf7a" font-size="15" font-family="Segoe UI, Arial">Right DNp28 carries an annotation segmentation flag; inspect before using it as a paired output.</text>
+<text x="60" y="868" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">Anatomical synapse counts are not measured signal strength. Independent FlyWire/Codex review remains pending.</text>
+</svg>

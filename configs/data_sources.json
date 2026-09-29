@@ -1,0 +1,46 @@
+{
+  "dataset_id": "fafb",
+  "snapshot": "783",
+  "products": [
+    {
+      "product": "proofread_connections_783.feather",
+      "source_url": "https://zenodo.org/api/records/10676866/files/proofread_connections_783.feather/content",
+      "path": "data/raw/proofread_connections_783.feather",
+      "expected_bytes": 852022274,
+      "checksum_type": "md5",
+      "checksum": "f48f972d262323a102aed49af1396b8a",
+      "license": "CC BY-NC 4.0 conservative FlyWire public-release use; Zenodo record metadata CC BY 4.0",
+      "citation": "Dorkenwald et al. 2024; Schlegel et al. 2024; Zenodo DOI 10.5281/zenodo.10676866"
+    },
+    {
+      "product": "proofread_root_ids_783.npy",
+      "source_url": "https://zenodo.org/api/records/10676866/files/proofread_root_ids_783.npy/content",
+      "path": "data/raw/proofread_root_ids_783.npy",
+      "expected_bytes": 1114168,
+      "checksum_type": "md5",
+      "checksum": "e0e6c19732fd8c7a4e39a2d170105421",
+      "license": "CC BY-NC 4.0 conservative FlyWire public-release use; Zenodo record metadata CC BY 4.0",
+      "citation": "Dorkenwald et al. 2024; Schlegel et al. 2024; Zenodo DOI 10.5281/zenodo.10676866"
+    },
+    {
+      "product": "per_neuron_neuropil_count_pre_783.feather",
+      "source_url": "https://zenodo.org/api/records/10676866/files/per_neuron_neuropil_count_pre_783.feather/content",
+      "path": "data/raw/per_neuron_neuropil_count_pre_783.feather",
+      "expected_bytes": 16853770,
+      "checksum_type": "md5",
+      "checksum": "90fcdb42c1ba05ed92820840fa1e6ba0",
+      "license": "CC BY-NC 4.0 conservative FlyWire public-release use; Zenodo record metadata CC BY 4.0",
+      "citation": "Dorkenwald et al. 2024; Schlegel et al. 2024; Zenodo DOI 10.5281/zenodo.10676866"
+    },
+    {
+      "product": "Supplemental_file1_neuron_annotations_v2.1.0.tsv",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/v2.1.0/supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+      "path": "data/raw/Supplemental_file1_neuron_annotations_v2.1.0.tsv",
+      "expected_bytes": 27015208,
+      "checksum_type": "git_blob_sha1",
+      "checksum": "1a3168731618ee62a47392252d3af7664e739e9e",
+      "license": "CC BY-NC 4.0 conservative FlyWire v783 public-release use; tag repository has no separate license file",
+      "citation": "Schlegel et al. 2024; Dorkenwald et al. 2024; flywire_annotations tag v2.1.0"
+    }
+  ]
+}
