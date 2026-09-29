@@ -48,4 +48,4 @@ the project's percentage complete or prove the vehicle is working.
 - [Archive versus current Codex](../figures/codex_reconciliation.png):
   all ten checked connection counts differ between these products.
 
-The [roadmap](../ROADMAP.md) gives the current gate status and next stage.
+The [open issues](issues.md) record the remaining work.

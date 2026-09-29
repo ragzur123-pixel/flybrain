@@ -24,9 +24,14 @@ runs/final_v1/*
 .env.*
 !.env.example
 
-# Local planning and third-party reference material; public summaries live in README and ROADMAP.
+# Local planning, agent instructions, and third-party reference material.
 FlyAI_MASTER_TODO_AND_AGENT_RULES.md
 todo.md
+AGENTS.md
+CONTRIBUTING.md
+ROADMAP.md
+docs/repository_guide.md
+.github/PULL_REQUEST_TEMPLATE.md
 docs/logbook.md
 docs/workcheck_*.md
 docs/reference/

@@ -1,10 +1,10 @@
 # P2 circuit gate review — 2026-09-28
 
-**Result: PASS under the project guide's P2 gate.** The owner-selected
+**Result: PASS under the P2 gate.** The owner-selected
 DNp20+DNp22 anatomical extraction passes provenance, directed-path,
-size, raw-edge, and reproducibility checks. The guide assigns synapse
-sign/weight conversion and virtual sensor/motor mapping to P4, so those
-remain open model tasks and are not conditions for starting P3. No
+size, raw-edge, and reproducibility checks. Synapse sign/weight conversion
+and virtual sensor/motor mapping remain P4 tasks and are not conditions
+for starting P3. No
 environment or behavioral run existed at this gate review.
 
 | Check | Result | Evidence |
@@ -22,5 +22,4 @@ preplanned orientation-control experiment. Its presence does not prove
 that a simulated neural circuit will be stable or perform the task.
 Proceed to P3 for a deterministic environment. Before P4 integration,
 select and test model equations, synapse conversion, photoreceptor input
-encoding, and the four-output decoder. This correction follows the P2/P3/P4
-division in `FlyAI_MASTER_TODO_AND_AGENT_RULES.md`, phase-gate table.
+encoding, and the four-output decoder.

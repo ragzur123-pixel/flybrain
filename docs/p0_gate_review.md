@@ -2,7 +2,7 @@
 
 **Decision: pass for a local, noncommercial research workflow.** This gate permits selecting and validating public data. It does not certify biological function, competition eligibility, commercial use, redistribution of source data, or the final report.
 
-| Gate condition in `todo.md` | Evidence | Result |
+| Gate condition | Evidence | Result |
 | --- | --- | --- |
 | Critical factual claims have source locations or are marked unverified | `docs/claim_audit.md`; source ledger plus unresolved circuit IDs, model mapping, and novelty issues | Pass |
 | Necessary data use and derived reporting are permitted | FlyWire v783 public-release guideline says CC BY-NC 4.0 and includes proofreading/annotations (FW-007); official Zenodo v783 archive says CC BY 4.0/open (FW-035); both allow noncommercial attributed reuse and adaptation (FW-008). The author's annotation repository links this archive and tag v2.1.0 is v783 (FW-034). Apply the stricter noncommercial terms to local data and report figures; no source-file redistribution. | Pass for this restricted use |

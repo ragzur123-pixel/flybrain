@@ -12,11 +12,11 @@ FlyAI is a research project testing whether a small, anatomically derived *Droso
 | `tests/` | Synthetic software tests. They do not establish biological validity. |
 | `configs/` | Versioned data, circuit, resource, and environment settings. |
 | `data/raw/manifest.csv` | Provenance and hashes for local source downloads. Raw downloads are excluded from Git. |
-| `docs/` | Methods, source evidence, decisions, gate reviews, and repository guidance. |
+| `docs/` | Methods, source evidence, decisions, and gate reviews. |
 | `figures/` | Generated data and software previews. No figure is a controller performance result. |
 | `protocol/`, `runs/`, `report/` | Reserved for a frozen protocol, recorded runs, and the eventual report. |
 
-The [research roadmap](ROADMAP.md) shows completed gates and unresolved work. The [repository guide](docs/repository_guide.md) describes how changes are organized and reviewed.
+The [open issues](docs/issues.md) record unresolved research questions.
 
 ## Run the software tests
 
