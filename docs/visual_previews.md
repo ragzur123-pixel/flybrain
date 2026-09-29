@@ -2,8 +2,9 @@
 
 Status: the 2024 publication-time FAFB v783 archive is the selected main
 baseline and its [P1 gate](p1_archive_gate_review_2026-09-28.md) passed.
-The vehicle view shows a fixed-command software fixture; the other views show anatomy and
-data checks. None shows neural activity or a completed experiment.
+The vehicle views show fixed and moving-cue software fixtures; the other
+views show anatomy and data checks. None shows observed neural activity
+or a completed experiment.
 
 ## Interactive 3D neurons
 
@@ -19,6 +20,32 @@ the project's percentage complete or prove the vehicle is working.
 
 ## Local checked previews
 
+- [Moving-cue software smoke](../figures/dynamic_smoke_v0.png):
+  one paired train-seed D0/D4 check of the exploratory v1 decoder. D0
+  collided at step 133 and D4 timed out at step 300. Both paths reached
+  every scheduled cue phase. This is not a pilot success-rate estimate
+  ([smoke note](p4_dynamic_smoke.md); [local replay](live_preview.html)).
+- [Center-cancellation comparison](../figures/decoder_fixture_v1.png):
+  v0 and v1 fixed D0 virtual paths plus synthetic side-cue scores. The
+  center-only score becomes zero under a reference subtraction for this
+  linear software probe; side response magnitudes remain unequal. This
+  is not a selected model, pilot, or biological circuit
+  ([comparison note](p4_center_cancellation.md)).
+- [Exploratory rate-to-wheel fixture](../figures/decoder_fixture_v0.png):
+  one fixed D0 virtual path plus left/center/right synthetic cue scores.
+  The center-only cue has a left-turn bias under this assumed decoder.
+  This is a software integration check, not a pilot or fly behavior
+  ([fixture note](p4_decoder_fixture.md)).
+- [Exploratory unsigned response traces](../figures/unsigned_rate_probe_v0.png):
+  three synthetic side cues passed through a declared count-normalized
+  software probe. The curves are modeled values, not measured fly activity,
+  vehicle motion, a selected neural controller, or a pilot result
+  ([probe note](p4_unsigned_rate_probe.md)).
+- [Selected input-side route chart](../figures/selected_side_routes.png):
+  four output rows count ordered two-edge paths from left, center, and right
+  photoreceptors. This audit shows substantial cross-side routes, especially
+  into the left-labeled outputs. It is connectivity, not a neural response or
+  steering result (`docs/selected_side_routes.md`).
 - [Deterministic 2D vehicle fixture](../figures/environment_fixture.png):
   the same fixed wheel command in D0 and D4. The cyan path reaches the
   virtual goal; the pink path shows the declared right-motor gain change.
@@ -49,3 +76,7 @@ the project's percentage complete or prove the vehicle is working.
   all ten checked connection counts differ between these products.
 
 The [open issues](issues.md) record the remaining work.
+
+The [P4 graph interface](p4_graph_interface.md) now checks and exposes the
+same selected anatomy for later simulation. It has no neural activity view
+until a model and virtual sensor/motor mapping are chosen and verified.

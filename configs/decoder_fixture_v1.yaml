@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "status": "exploratory center-cancelled software fixture; not selected P4 controller or pilot",
+  "rate_probe_config": "configs/unsigned_rate_probe_v0.yaml",
+  "vehicle_config": "configs/environment_v1.yaml",
+  "dataset": "publication-time 2024 FAFB v783 archive",
+  "output_order": ["DNp20 left", "DNp20 right", "DNp22 left", "DNp22 right"],
+  "reference_rule": "run a separate, reset-identical copy of the unsigned probe with left=right=0 and center equal to the observed center channel at every step",
+  "readout_rule": "corrected_opponent=opponent(full_probe_outputs)-opponent(center_reference_outputs); opponent=(DNp20_left+DNp22_left-DNp20_right-DNp22_right)/2",
+  "wheel_rule": "left=clamp(base-gain*corrected_opponent,0,1); right=clamp(base+gain*corrected_opponent,0,1)",
+  "base_speed_m_s": 0.6,
+  "gain_m_s_per_rate_unit": 0.5,
+  "center_cancellation_scope": "exact for this zero-initialized linear rate probe up to floating-point error; not a biological inhibitory circuit or validated neutral-center mapping",
+  "fixture": {"scenario": "D0", "split": "fixture", "seed": 1, "start_pose": [2.0, 5.0, 0.0]},
+  "synthetic_checks": {"unit_cue_steps": 12, "cue_loss_steps": 12, "switch_steps_each_side": 12},
+  "scope": "deterministic software integration and cue algebra only; no training, model selection, pilot metrics, or biological motor sign"
+}

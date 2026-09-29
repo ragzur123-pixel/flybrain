@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlyAI live work preview</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, Segoe UI, sans-serif; background: #0c1422; color: #eaf3fb; }
+    * { box-sizing: border-box; }
+    body { max-width: 1420px; margin: 0 auto; padding: 28px; }
+    h1 { font-size: 32px; margin: 0 0 8px; }
+    h2 { font-size: 19px; margin: 0 0 16px; }
+    p { line-height: 1.5; }
+    .muted { color: #a9bfd0; }
+    .small { font-size: 14px; }
+    .top { display: flex; gap: 24px; justify-content: space-between; flex-wrap: wrap; align-items: start; }
+    .badge { border: 1px solid #426078; background: #16283b; padding: 9px 14px; border-radius: 9px; white-space: nowrap; }
+    .bar { height: 14px; background: #25384a; border-radius: 9px; overflow: hidden; margin-top: 12px; }
+    .bar > span { display: block; width: 35%; height: 100%; background: #50cce3; }
+    .grid { display: grid; grid-template-columns: minmax(560px, 1.45fr) minmax(320px, .8fr); gap: 18px; margin-top: 20px; }
+    .card { background: #172638; border: 1px solid #31465b; border-radius: 12px; padding: 20px; }
+    canvas { display: block; width: 100%; background: #101d2c; border: 1px solid #344a5f; border-radius: 8px; }
+    #arena { aspect-ratio: 1.7; }
+    #signal { aspect-ratio: 3.5; margin-top: 16px; }
+    .controls { display: flex; align-items: center; gap: 10px; margin-top: 16px; }
+    input[type="range"] { flex: 1; }
+    button { background: #255a70; border: 1px solid #4aa4b8; color: #f1f9fc; padding: 8px 13px; border-radius: 7px; cursor: pointer; }
+    button:hover { background: #2f6f85; }
+    select { background: #203c50; border: 1px solid #4b7890; color: #f1f9fc; padding: 8px 10px; border-radius: 7px; max-width: 100%; }
+    .metric { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; border-bottom: 1px solid #31465b; }
+    .metric strong { font-variant-numeric: tabular-nums; }
+    .pink { color: #ff6fb6; } .cyan { color: #56d9ee; } .green { color: #a6e7aa; }
+    a { color: #7eddf0; }
+    ul { padding-left: 20px; line-height: 1.55; }
+    .status { min-height: 25px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } body { padding: 18px; } }
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div>
+      <h1>FlyAI work preview</h1>
+      <div class="muted">Publication-time 2024 FAFB v783 · selected DNp20 + DNp22 anatomy · exploratory software controller</div>
+    </div>
+    <div class="badge">P4 model gate: <strong>open</strong></div>
+  </div>
+  <div class="bar" aria-label="Estimated project progress, 35 percent"><span></span></div>
+  <p class="muted small">Estimated overall effort complete: ~35%. The bar is a planning estimate. These curves and paths are modeled software outputs, not recorded fly-neuron activity or pilot results.</p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Virtual vehicle replay</h2>
+      <label for="mode" class="small muted">Choose a saved software trace</label>
+      <select id="mode" aria-label="Saved software trace">
+        <option value="fixed">Fixed D0, v0 versus v1</option>
+        <option value="dynamic_d0">Moving cue, D0</option>
+        <option value="dynamic_d4">Moving cue plus right-motor loss, D4</option>
+      </select>
+      <canvas id="arena" width="820" height="480" aria-label="Two virtual vehicle paths"></canvas>
+      <div class="controls">
+        <button id="play" type="button">Play</button>
+        <input id="step" type="range" min="0" max="0" value="0" aria-label="Replay step">
+        <strong id="stepLabel">Step 0</strong>
+      </div>
+      <canvas id="signal" width="820" height="230" aria-label="Turn score over time"></canvas>
+      <p id="traceCaption" class="small muted"><span class="pink">Pink: v0 raw readout</span> · <span class="cyan">Cyan: v1 center-cancelled readout</span>. Both use the same fixed D0 fixture. Drag the step control to inspect modeled values.</p>
+    </section>
+    <section class="card">
+      <h2>At the selected step</h2>
+      <div class="metric"><span>Sensor left / center / right</span><strong id="sensors">—</strong></div>
+      <div class="metric"><span>DNp20 left / right</span><strong id="p20">—</strong></div>
+      <div class="metric"><span>DNp22 left / right</span><strong id="p22">—</strong></div>
+      <div class="metric"><span>Raw / center reference score</span><strong id="raw">—</strong></div>
+      <div class="metric"><span>Corrected turn score</span><strong id="corrected" class="cyan">—</strong></div>
+      <div class="metric"><span>Left / right wheel command, m/s</span><strong id="wheels">—</strong></div>
+      <div class="metric"><span>Applied left / right wheels, m/s</span><strong id="applied">—</strong></div>
+      <div class="metric"><span>Cue phase / run outcome</span><strong id="phase">—</strong></div>
+      <h2 style="margin-top:28px">Current work</h2>
+      <p id="workStatus" class="status">Loading current task…</p>
+      <p id="workUpdate" class="small muted"></p>
+      <ul id="milestones"></ul>
+      <p class="small muted">This page checks for updates every 3 seconds. Data stays on this computer through a server bound to 127.0.0.1.</p>
+      <p class="small"><a href="../figures/selected_subnetwork.png" target="_blank" rel="noopener">119-neuron graph</a> · <a href="../figures/decoder_fixture_v1.png" target="_blank" rel="noopener">Fixed comparison</a> · <a href="../figures/dynamic_smoke_v0.png" target="_blank" rel="noopener">Moving-cue figure</a> · <a href="../data/derived/dynamic_smoke_v0.json" target="_blank" rel="noopener">Trace data</a></p>
+    </section>
+  </div>
+  <script>
+    const $ = id => document.getElementById(id);
+    const arena = $('arena'), signal = $('signal'), slider = $('step');
+    let comparison = null, dynamic = null, timer = null;
+    function number(value) { return Number(value).toFixed(3); }
+    function xy(p) { return [55 + p[0] * 72, 240 - (p[1]-5) * 72]; }
+    function selectedRun() {
+      const mode=$('mode').value;
+      if (mode==='fixed') return {path:comparison.v1.path,steps:comparison.v1.steps,termination_reason:comparison.v1.termination_reason};
+      return dynamic.runs[mode==='dynamic_d0'?0:1];
+    }
+    function line(ctx, points, color, width) {
+      if (!points.length) return;
+      ctx.beginPath(); points.forEach((point, i) => { const [x,y] = xy(point); i ? ctx.lineTo(x,y) : ctx.moveTo(x,y); });
+      ctx.strokeStyle = color; ctx.lineWidth = width; ctx.stroke();
+    }
+    function drawArena(step) {
+      const ctx = arena.getContext('2d'); ctx.clearRect(0,0,arena.width,arena.height);
+      ctx.fillStyle = '#101d2c'; ctx.fillRect(0,0,arena.width,arena.height);
+      for (let x=0;x<=10;x+=2) { const px=55+x*72; ctx.strokeStyle='#263d50'; ctx.beginPath();ctx.moveTo(px,22);ctx.lineTo(px,460);ctx.stroke(); }
+      for (let y=2;y<=8;y+=2) { const py=xy([0,y])[1];ctx.strokeStyle='#263d50';ctx.beginPath();ctx.moveTo(40,py);ctx.lineTo(785,py);ctx.stroke(); }
+      const obstacleTop=xy([4.5,8]),obstacleBottom=xy([5.5,7]);ctx.fillStyle='#43576a';ctx.fillRect(obstacleTop[0],obstacleTop[1],obstacleBottom[0]-obstacleTop[0],obstacleBottom[1]-obstacleTop[1]);
+      const goal=xy([8,5]);ctx.strokeStyle='#a6e7aa';ctx.lineWidth=3;ctx.beginPath();ctx.arc(goal[0],goal[1],26,0,Math.PI*2);ctx.stroke();
+      let old,fresh;
+      if ($('mode').value==='fixed') {
+        old=comparison.v0_summary.path_xy.slice(0,step+1);
+        fresh=comparison.v1.path.slice(0,step+1).map(p=>p.pose);
+      } else {
+        old=dynamic.runs[0].path.slice(0,Math.min(step+1,dynamic.runs[0].path.length)).map(p=>p.pose);
+        fresh=dynamic.runs[1].path.slice(0,Math.min(step+1,dynamic.runs[1].path.length)).map(p=>p.pose);
+      }
+      line(ctx,old,'#ff62b3',4);line(ctx,fresh,'#55d9f1',4);
+      const active=selectedRun().path[Math.min(step,selectedRun().steps)].pose;
+      const selected=xy(active);ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.beginPath();ctx.arc(selected[0],selected[1],11,0,Math.PI*2);ctx.stroke();
+      const end=xy(fresh[fresh.length-1]);ctx.fillStyle='#55d9f1';ctx.beginPath();ctx.arc(end[0],end[1],7,0,Math.PI*2);ctx.fill();
+      ctx.fillStyle='#b9cad9';ctx.font='16px system-ui';ctx.fillText('start',xy([2,5])[0]-19,xy([2,5])[1]+29);ctx.fillText('goal',goal[0]-17,goal[1]-34);
+    }
+    function drawSignal(step) {
+      const ctx=signal.getContext('2d'), w=signal.width,h=signal.height;
+      ctx.clearRect(0,0,w,h);ctx.fillStyle='#101d2c';ctx.fillRect(0,0,w,h);
+      const rows=selectedRun().path;const scaleX=(w-90)/Math.max(1,rows.length-1);
+      function y(v) { return h/2-v*220; }
+      ctx.strokeStyle='#557087';ctx.beginPath();ctx.moveTo(48,h/2);ctx.lineTo(w-20,h/2);ctx.stroke();
+      for (const [key,color] of [['raw_score','#ff62b3'],['corrected_score','#55d9f1']]) {
+        ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();rows.forEach((row,i)=>{const x=48+i*scaleX; i?ctx.lineTo(x,y(row[key])):ctx.moveTo(x,y(row[key]));});ctx.stroke();
+      }
+      ctx.strokeStyle='#dfeaf3';ctx.beginPath();ctx.moveTo(48+step*scaleX,20);ctx.lineTo(48+step*scaleX,h-20);ctx.stroke();
+      ctx.fillStyle='#a9bfd0';ctx.font='14px system-ui';ctx.fillText('turn score',12,22);ctx.fillText('0',27,h/2+5);ctx.fillText(String(rows.length-1)+' steps',w-105,h-10);
+    }
+    function show(step) {
+      if (!comparison || !dynamic) return;
+      const run=selectedRun(), row=run.path[step], o=row.observation, out=row.full_outputs;
+      $('stepLabel').textContent='Step '+step;
+      $('sensors').textContent=[o.left,o.center,o.right].map(number).join(' / ');
+      $('p20').textContent=[out[0],out[1]].map(number).join(' / ');
+      $('p22').textContent=[out[2],out[3]].map(number).join(' / ');
+      $('raw').textContent=number(row.raw_score)+' / '+number(row.center_score);
+      $('corrected').textContent=number(row.corrected_score);
+      $('wheels').textContent=row.command_m_s.map(number).join(' / ');
+      $('applied').textContent=row.applied_wheels_m_s ? row.applied_wheels_m_s.map(number).join(' / ') : 'not recorded in fixed fixture';
+      $('phase').textContent=(row.cue_source || 'static goal')+' / '+run.termination_reason;
+      drawArena(step);drawSignal(step);
+    }
+    slider.addEventListener('input',()=>show(Number(slider.value)));
+    $('play').addEventListener('click',()=>{
+      if (timer) { clearInterval(timer);timer=null;$('play').textContent='Play';return; }
+      $('play').textContent='Pause';timer=setInterval(()=>{ const next=(Number(slider.value)+1)%(Number(slider.max)+1);slider.value=next;show(next); },150);
+    });
+    function setMode() {
+      if (!comparison || !dynamic) return;
+      if (timer) { clearInterval(timer);timer=null;$('play').textContent='Play'; }
+      const mode=$('mode').value;slider.max=selectedRun().steps;slider.value=0;
+      $('traceCaption').textContent=mode==='fixed'
+        ? 'Pink: v0 raw readout. Cyan: v1 center-cancelled readout. Both fixed D0 fixtures reached the goal at step 93.'
+        : 'Pink: moving-cue D0. Cyan: moving-cue D4. Same training seed and map; D0 collided at step 133 and D4 timed out at step 300. These are exploratory software attempts, not pilot results.';
+      show(0);
+    }
+    $('mode').addEventListener('change',setMode);
+    async function loadComparison() {
+      try {
+        const urls=['../data/derived/decoder_fixture_v1.json','../data/derived/dynamic_smoke_v0.json'];
+        const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store'})));
+        for (const response of responses) if (!response.ok) throw new Error('HTTP '+response.status);
+        [comparison,dynamic]=await Promise.all(responses.map(response=>response.json()));setMode();
+      } catch (error) { $('workStatus').textContent='Could not load the local comparison: '+error.message; }
+    }
+    async function loadStatus() {
+      try {
+        const response=await fetch('../data/derived/live_status.json?time='+Date.now(),{cache:'no-store'});
+        if (!response.ok) throw new Error('HTTP '+response.status);
+        const data=await response.json();$('workStatus').textContent=data.current;
+        $('workUpdate').textContent='Last update: '+data.updated_local;
+        const list=$('milestones');list.replaceChildren();
+        for (const item of data.milestones) { const li=document.createElement('li');li.textContent=item;list.append(li); }
+      } catch (error) { $('workStatus').textContent='Live status unavailable: '+error.message; }
+    }
+    loadComparison();loadStatus();setInterval(loadStatus,3000);
+  </script>
+</body>
+</html>

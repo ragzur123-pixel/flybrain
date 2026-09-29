@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<rect width="1280" height="760" fill="#101a2b"/>
+<text x="65" y="70" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="36" font-weight="700">Which input sides reach each output?</text>
+<text x="65" y="109" fill="#b8c8da" font-family="Segoe UI,Arial" font-size="19">Selected v783 graph · ordered photoreceptor → OCG01 → output paths</text>
+<circle cx="420" cy="170" r="8" fill="#ff59b0"/>
+<text x="440" y="177" fill="#e0eaf4" font-family="Segoe UI,Arial" font-size="21" font-weight="600">left input</text>
+<circle cx="700" cy="170" r="8" fill="#e8bd66"/>
+<text x="720" y="177" fill="#e0eaf4" font-family="Segoe UI,Arial" font-size="21" font-weight="600">center input</text>
+<circle cx="980" cy="170" r="8" fill="#45d6f5"/>
+<text x="1000" y="177" fill="#e0eaf4" font-family="Segoe UI,Arial" font-size="21" font-weight="600">right input</text>
+<text x="65" y="249" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="600">DNp20 left</text>
+<text x="65" y="277" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">fully same-side paths: 7</text>
+<rect x="420" y="225" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="420" y="225" width="34.10" height="34" rx="6" fill="#ff59b0"/>
+<text x="635" y="250" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">7</text>
+<text x="420" y="281" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">7 unique photoreceptors</text>
+<rect x="700" y="225" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="700" y="225" width="87.69" height="34" rx="6" fill="#e8bd66"/>
+<text x="915" y="250" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">18</text>
+<text x="700" y="281" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">18 unique photoreceptors</text>
+<rect x="980" y="225" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="980" y="225" width="136.41" height="34" rx="6" fill="#45d6f5"/>
+<text x="1195" y="250" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">28</text>
+<text x="980" y="281" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">28 unique photoreceptors</text>
+<text x="65" y="357" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="600">DNp20 right</text>
+<text x="65" y="385" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">fully same-side paths: 38</text>
+<rect x="420" y="333" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="420" y="333" width="97.44" height="34" rx="6" fill="#ff59b0"/>
+<text x="635" y="358" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">20</text>
+<text x="420" y="389" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">20 unique photoreceptors</text>
+<rect x="700" y="333" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="700" y="333" width="63.33" height="34" rx="6" fill="#e8bd66"/>
+<text x="915" y="358" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">13</text>
+<text x="700" y="389" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">13 unique photoreceptors</text>
+<rect x="980" y="333" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="980" y="333" width="185.13" height="34" rx="6" fill="#45d6f5"/>
+<text x="1195" y="358" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">38</text>
+<text x="980" y="389" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">31 unique photoreceptors</text>
+<text x="65" y="465" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="600">DNp22 left</text>
+<text x="65" y="493" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">fully same-side paths: 8</text>
+<rect x="420" y="441" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="420" y="441" width="38.97" height="34" rx="6" fill="#ff59b0"/>
+<text x="635" y="466" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">8</text>
+<text x="420" y="497" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">8 unique photoreceptors</text>
+<rect x="700" y="441" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="700" y="441" width="53.59" height="34" rx="6" fill="#e8bd66"/>
+<text x="915" y="466" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">11</text>
+<text x="700" y="497" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">11 unique photoreceptors</text>
+<rect x="980" y="441" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="980" y="441" width="175.38" height="34" rx="6" fill="#45d6f5"/>
+<text x="1195" y="466" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">36</text>
+<text x="980" y="497" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">35 unique photoreceptors</text>
+<text x="65" y="573" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="600">DNp22 right</text>
+<text x="65" y="601" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">fully same-side paths: 39</text>
+<rect x="420" y="549" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="420" y="549" width="160.77" height="34" rx="6" fill="#ff59b0"/>
+<text x="635" y="574" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">33</text>
+<text x="420" y="605" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">33 unique photoreceptors</text>
+<rect x="700" y="549" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="700" y="549" width="77.95" height="34" rx="6" fill="#e8bd66"/>
+<text x="915" y="574" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">16</text>
+<text x="700" y="605" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">16 unique photoreceptors</text>
+<rect x="980" y="549" width="200" height="34" rx="6" fill="#243348"/>
+<rect x="980" y="549" width="190.00" height="34" rx="6" fill="#45d6f5"/>
+<text x="1195" y="574" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="700">39</text>
+<text x="980" y="605" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="15">29 unique photoreceptors</text>
+<text x="65" y="689" fill="#c8d8e8" font-family="Segoe UI,Arial" font-size="17">One photoreceptor may supply multiple paths. Colors mark anatomical input sides, not signal signs.</text>
+<text x="65" y="719" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="16">This is connectivity only. Neural response, steering direction, and task performance remain untested.</text>
+</svg>

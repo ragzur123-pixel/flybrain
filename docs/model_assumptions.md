@@ -51,5 +51,16 @@ Applying Shiu et al.'s binary source convention to this different v783
 subnetwork would be a **new FlyAI assumption**, including any treatment
 of serotonin and receptor-dependent glutamate effects. The project has
 not selected one. The concrete routes, tradeoffs, and virtual interface
-checks are in `docs/p2_model_route_packet.md`. The P2 model/mapping gate
-remains partial.
+checks are in `docs/p2_model_route_packet.md`. The P2 anatomical gate passed;
+the P4 model/mapping gate remains open. A checked sparse anatomy reader is
+documented in `docs/p4_graph_interface.md`, but it does not choose dynamics,
+signs, or virtual sensor/motor mappings.
+
+An explicitly exploratory unsigned response probe is documented in
+`docs/p4_unsigned_rate_probe.md`. Its count normalization, relaxation,
+side-matched input, and zero state are software assumptions used to inspect
+four output traces. They are not Shiu et al.'s LIF dynamics, validated
+transmitter effects, a motor decoder, or an owner-selected P4 model. Later
+exploratory wheel mappings and a moving-cue software smoke are recorded in
+`docs/p4_center_cancellation.md` and `docs/p4_dynamic_smoke.md`; those
+attempts do not select this probe as the P4 model or validate control.

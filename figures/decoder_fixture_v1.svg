@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="1400" height="850" fill="#101a2b"/>
+<text x="60" y="67" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="34" font-weight="700">Center-channel correction check</text>
+<text x="60" y="103" fill="#bbcadb" font-family="Segoe UI,Arial" font-size="18">Exploratory v783 rate probe · same fixed D0 software fixture · modeled wheel commands only</text>
+<rect x="60" y="142" width="870" height="560" rx="10" fill="#1c2a3d"/>
+<text x="87" y="181" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="23" font-weight="600">Virtual vehicle paths</text>
+<path d="M130,240 H870 M130,650 H870" stroke="#53667d" stroke-width="1"/>
+<circle cx="786" cy="240" r="41" fill="none" stroke="#94e797" stroke-width="3"/>
+<polyline points="294.0,240.0 298.9,240.0 303.8,240.0 308.8,240.0 313.7,240.0 318.6,240.0 323.5,239.9 328.4,239.9 333.4,239.9 338.3,239.8 343.2,239.7 348.1,239.7 353.0,239.6 358.0,239.5 362.9,239.4 367.8,239.2 372.7,239.1 377.6,239.0 382.5,238.8 387.5,238.6 392.4,238.5 397.3,238.3 402.2,238.1 407.1,237.9 412.0,237.7 417.0,237.5 421.9,237.3 426.8,237.0 431.7,236.8 436.6,236.5 441.5,236.3 446.4,236.0 451.4,235.8 456.3,235.5 461.2,235.2 466.1,234.9 471.0,234.6 475.9,234.3 480.8,234.1 485.7,233.8 490.7,233.4 495.6,233.1 500.5,232.8 505.4,232.5 510.3,232.2 515.2,231.9 520.1,231.6 525.0,231.3 529.9,231.0 534.8,230.7 539.8,230.4 544.7,230.0 549.6,229.7 554.5,229.4 559.4,229.1 564.3,228.8 569.2,228.6 574.1,228.3 579.0,228.0 584.0,227.7 588.9,227.5 593.8,227.2 598.7,227.0 603.6,226.7 608.5,226.5 613.4,226.3 618.4,226.1 623.3,225.9 628.2,225.7 633.1,225.5 638.0,225.3 642.9,225.2 647.9,225.1 652.8,225.0 657.7,224.9 662.6,224.8 667.5,224.7 672.5,224.7 677.4,224.7 682.3,224.7 687.2,224.7 692.1,224.7 697.1,224.8 702.0,224.9 706.9,225.0 711.8,225.2 716.7,225.4 721.6,225.6 726.6,225.8 731.5,226.1 736.4,226.4 741.3,226.8 746.2,227.2 751.1,227.7" fill="none" stroke="#ff5ab0" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="294.0,240.0 298.9,240.0 303.8,240.0 308.8,240.0 313.7,240.0 318.6,240.0 323.5,240.1 328.4,240.1 333.4,240.1 338.3,240.2 343.2,240.3 348.1,240.3 353.0,240.4 358.0,240.5 362.9,240.6 367.8,240.8 372.7,240.9 377.6,241.0 382.5,241.2 387.5,241.4 392.4,241.5 397.3,241.7 402.2,241.9 407.1,242.1 412.0,242.3 417.0,242.5 421.9,242.7 426.8,243.0 431.7,243.2 436.6,243.5 441.5,243.7 446.4,244.0 451.4,244.2 456.3,244.5 461.2,244.8 466.1,245.1 471.0,245.4 475.9,245.7 480.8,246.0 485.7,246.3 490.6,246.6 495.6,246.9 500.5,247.2 505.4,247.5 510.3,247.8 515.2,248.1 520.1,248.4 525.0,248.8 529.9,249.1 534.8,249.4 539.7,249.7 544.7,250.0 549.6,250.3 554.5,250.6 559.4,250.9 564.3,251.2 569.2,251.5 574.1,251.8 579.0,252.1 583.9,252.4 588.9,252.6 593.8,252.9 598.7,253.2 603.6,253.4 608.5,253.6 613.4,253.9 618.3,254.1 623.3,254.3 628.2,254.5 633.1,254.7 638.0,254.8 642.9,255.0 647.8,255.1 652.8,255.2 657.7,255.3 662.6,255.4 667.5,255.5 672.4,255.5 677.4,255.6 682.3,255.6 687.2,255.6 692.1,255.5 697.0,255.5 702.0,255.4 706.9,255.3 711.8,255.1 716.7,254.9 721.6,254.7 726.5,254.5 731.5,254.2 736.4,253.9 741.3,253.5 746.2,253.1 751.1,252.7" fill="none" stroke="#48d7f3" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="294" cy="240" r="7" fill="#ffb65d"/>
+<text x="749" y="187" fill="#d5f5d8" font-family="Segoe UI,Arial" font-size="17">goal</text>
+<path d="M90,588 H125" stroke="#ff5ab0" stroke-width="5"/>
+<text x="137" y="594" fill="#e8edf4" font-family="Segoe UI,Arial" font-size="17">v0 raw readout</text>
+<path d="M320,588 H355" stroke="#48d7f3" stroke-width="5"/>
+<text x="367" y="594" fill="#e8edf4" font-family="Segoe UI,Arial" font-size="17">v1 center-cancelled readout</text>
+<text x="87" y="674" fill="#d5e5f4" font-family="Segoe UI,Arial" font-size="18">Both fixed fixtures: goal at step 93 / 93 (v0 / v1)</text>
+<rect x="960" y="142" width="380" height="560" rx="10" fill="#1c2a3d"/>
+<text x="990" y="181" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="22" font-weight="600">12-step synthetic cues</text>
+<text x="990" y="212" fill="#adbed0" font-family="Segoe UI,Arial" font-size="16">Turn score: raw → corrected</text>
+<text x="990" y="277" fill="#e4edf6" font-family="Segoe UI,Arial" font-size="19">left</text>
+<text x="1120" y="277" fill="#ff8ec7" font-family="Segoe UI,Arial" font-size="19">+0.191</text>
+<text x="1200" y="277" fill="#bcd0df" font-family="Segoe UI,Arial" font-size="18">→</text>
+<text x="1240" y="277" fill="#65dcf2" font-family="Segoe UI,Arial" font-size="19">+0.191</text>
+<text x="990" y="393" fill="#e4edf6" font-family="Segoe UI,Arial" font-size="19">center</text>
+<text x="1120" y="393" fill="#ff8ec7" font-family="Segoe UI,Arial" font-size="19">+0.083</text>
+<text x="1200" y="393" fill="#bcd0df" font-family="Segoe UI,Arial" font-size="18">→</text>
+<text x="1240" y="393" fill="#65dcf2" font-family="Segoe UI,Arial" font-size="19">+0.000</text>
+<text x="990" y="509" fill="#e4edf6" font-family="Segoe UI,Arial" font-size="19">right</text>
+<text x="1120" y="509" fill="#ff8ec7" font-family="Segoe UI,Arial" font-size="19">-0.274</text>
+<text x="1200" y="509" fill="#bcd0df" font-family="Segoe UI,Arial" font-size="18">→</text>
+<text x="1240" y="509" fill="#65dcf2" font-family="Segoe UI,Arial" font-size="19">-0.274</text>
+<text x="990" y="641" fill="#d3e8f5" font-family="Segoe UI,Arial" font-size="16">Center-only residual: 0</text>
+<text x="60" y="752" fill="#dce8f4" font-family="Segoe UI,Arial" font-size="18">Center cancellation is exact for this assumed linear software probe; it is not a biological circuit.</text>
+<text x="60" y="787" fill="#a9bfd2" font-family="Segoe UI,Arial" font-size="17">One fixture and synthetic cues do not establish pilot performance, learning, or a P4 gate pass.</text>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "version": 0,
+  "status": "exploratory P4 software probe; not an owner-selected neural model or pilot",
+  "dataset": "publication-time 2024 FAFB v783 archive",
+  "nodes_csv_sha256": "3fe59923fb1afcbd0ce47773d05f63fa59a0cc63433c72aab756ac631f4461d2",
+  "edges_csv_sha256": "d69d81db5cbcfdc4300d054853df455fdbfcf2985d87c1e375cafba26ba0b2a4",
+  "dt_s": 0.1,
+  "relaxation_fraction_per_step": 0.5,
+  "input_channels": ["left", "center", "right"],
+  "input_range": [0.0, 1.0],
+  "input_rule": "each photoreceptor receives the current virtual channel value matching its annotated biological side; input layer is instantaneous",
+  "edge_rule": "each positive pair_synapses count is divided by the sum of incoming counts to its postsynaptic node; no transmitter sign is used",
+  "state_rule": "OCG01 uses current input values; descending outputs use previous OCG01 state; both relax by fraction 0.5; initial state zero",
+  "output_order": ["DNp20 left", "DNp20 right", "DNp22 left", "DNp22 right"],
+  "probe_schedule": {"stimulus_steps": 12, "silence_steps": 12, "stimuli": ["left", "center", "right"]},
+  "scope": "software transfer and timing check only; no motor decoder, trainable gains, vehicle episode, physiological claim, or pilot outcome"
+}

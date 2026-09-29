@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="940" viewBox="0 0 1400 940">
+<rect width="1400" height="940" fill="#101a2b"/>
+<text x="64" y="70" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="37" font-weight="700">Exploratory unsigned response probe</text>
+<text x="64" y="109" fill="#b8c8da" font-family="Segoe UI,Arial" font-size="19">Selected v783 graph · one cue side at a time · modeled rate from 0 to 1</text>
+<path d="M65,158 H99" stroke="#ff59b0" stroke-width="4"/>
+<text x="109" y="164" fill="#dfeaf4" font-family="Segoe UI,Arial" font-size="18">DNp20 left</text>
+<path d="M385,158 H419" stroke="#45d6f5" stroke-width="4"/>
+<text x="429" y="164" fill="#dfeaf4" font-family="Segoe UI,Arial" font-size="18">DNp20 right</text>
+<path d="M705,158 H739" stroke="#f5a4d2" stroke-width="4" stroke-dasharray="9 6"/>
+<text x="749" y="164" fill="#dfeaf4" font-family="Segoe UI,Arial" font-size="18">DNp22 left</text>
+<path d="M1025,158 H1059" stroke="#a4edfa" stroke-width="4" stroke-dasharray="9 6"/>
+<text x="1069" y="164" fill="#dfeaf4" font-family="Segoe UI,Arial" font-size="18">DNp22 right</text>
+<text x="65" y="248" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="24" font-weight="600">left cue</text>
+<text x="65" y="279" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="16">12 steps on, 12 off</text>
+<rect x="260" y="218" width="1050" height="145" rx="7" fill="#1c2a3d"/>
+<path d="M260,363.0 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="368.0" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0</text>
+<path d="M260,290.5 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="295.5" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0.35</text>
+<path d="M260,218.0 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="223.0" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0.7</text>
+<path d="M785.0,218 V363" stroke="#dbe9f5" stroke-opacity="0.65" stroke-dasharray="5 5"/>
+<text x="794.0" y="210" fill="#dbe9f5" font-family="Segoe UI,Arial" font-size="14">cue off</text>
+<polyline points="260.00,363.00 305.65,339.75 351.30,316.51 396.96,299.07 442.61,287.45 488.26,280.18 533.91,275.82 579.57,273.28 625.22,271.83 670.87,271.01 716.52,270.56 762.17,270.31 807.83,270.17 853.48,293.34 899.13,316.55 944.78,333.96 990.43,345.58 1036.09,352.84 1081.74,357.19 1127.39,359.73 1173.04,361.18 1218.70,362.00 1264.35,362.46 1310.00,362.71" fill="none" stroke="#ff59b0" stroke-width="3"/>
+<polyline points="260.00,363.00 305.65,352.24 351.30,341.48 396.96,333.41 442.61,328.03 488.26,324.67 533.91,322.66 579.57,321.48 625.22,320.81 670.87,320.43 716.52,320.22 762.17,320.10 807.83,320.04 853.48,330.76 899.13,341.50 944.78,349.56 990.43,354.94 1036.09,358.30 1081.74,360.31 1127.39,361.49 1173.04,362.16 1218.70,362.54 1264.35,362.75 1310.00,362.86" fill="none" stroke="#45d6f5" stroke-width="3"/>
+<polyline points="260.00,363.00 305.65,336.32 351.30,309.64 396.96,289.62 442.61,276.28 488.26,267.94 533.91,262.94 579.57,260.02 625.22,258.36 670.87,257.42 716.52,256.90 762.17,256.61 807.83,256.45 853.48,283.05 899.13,309.69 944.78,329.67 990.43,343.00 1036.09,351.33 1081.74,356.33 1127.39,359.25 1173.04,360.92 1218.70,361.85 1264.35,362.37 1310.00,362.66" fill="none" stroke="#f5a4d2" stroke-width="3" stroke-dasharray="9 6"/>
+<polyline points="260.00,363.00 305.65,343.71 351.30,324.42 396.96,309.95 442.61,300.31 488.26,294.28 533.91,290.66 579.57,288.55 625.22,287.35 670.87,286.67 716.52,286.29 762.17,286.08 807.83,285.97 853.48,305.20 899.13,324.46 944.78,338.91 990.43,348.54 1036.09,354.57 1081.74,358.18 1127.39,360.29 1173.04,361.49 1218.70,362.17 1264.35,362.55 1310.00,362.76" fill="none" stroke="#a4edfa" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="65" y="465" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="24" font-weight="600">center cue</text>
+<text x="65" y="496" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="16">12 steps on, 12 off</text>
+<rect x="260" y="435" width="1050" height="145" rx="7" fill="#1c2a3d"/>
+<path d="M260,580.0 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="585.0" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0</text>
+<path d="M260,507.5 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="512.5" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0.35</text>
+<path d="M260,435.0 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="440.0" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0.7</text>
+<path d="M785.0,435 V580" stroke="#dbe9f5" stroke-opacity="0.65" stroke-dasharray="5 5"/>
+<text x="794.0" y="427" fill="#dbe9f5" font-family="Segoe UI,Arial" font-size="14">cue off</text>
+<polyline points="260.00,580.00 305.65,560.60 351.30,541.20 396.96,526.65 442.61,516.95 488.26,510.89 533.91,507.25 579.57,505.13 625.22,503.92 670.87,503.24 716.52,502.86 762.17,502.65 807.83,502.53 853.48,521.87 899.13,541.24 944.78,555.77 990.43,565.46 1036.09,571.52 1081.74,575.15 1127.39,577.27 1173.04,578.49 1218.70,579.17 1264.35,579.55 1310.00,579.75" fill="none" stroke="#ff59b0" stroke-width="3"/>
+<polyline points="260.00,580.00 305.65,570.85 351.30,561.69 396.96,554.83 442.61,550.25 488.26,547.39 533.91,545.68 579.57,544.68 625.22,544.10 670.87,543.78 716.52,543.60 762.17,543.50 807.83,543.45 853.48,552.58 899.13,561.71 944.78,568.57 990.43,573.14 1036.09,576.00 1081.74,577.71 1127.39,578.71 1173.04,579.29 1218.70,579.61 1264.35,579.79 1310.00,579.88" fill="none" stroke="#45d6f5" stroke-width="3"/>
+<polyline points="260.00,580.00 305.65,571.48 351.30,562.96 396.96,556.57 442.61,552.30 488.26,549.64 533.91,548.04 579.57,547.11 625.22,546.58 670.87,546.28 716.52,546.11 762.17,546.02 807.83,545.97 853.48,554.47 899.13,562.97 944.78,569.36 990.43,573.61 1036.09,576.27 1081.74,577.87 1127.39,578.80 1173.04,579.33 1218.70,579.63 1264.35,579.80 1310.00,579.89" fill="none" stroke="#f5a4d2" stroke-width="3" stroke-dasharray="9 6"/>
+<polyline points="260.00,580.00 305.65,569.84 351.30,559.67 396.96,552.05 442.61,546.97 488.26,543.79 533.91,541.89 579.57,540.77 625.22,540.14 670.87,539.78 716.52,539.58 762.17,539.47 807.83,539.41 853.48,549.55 899.13,559.69 944.78,567.31 990.43,572.38 1036.09,575.56 1081.74,577.46 1127.39,578.57 1173.04,579.21 1218.70,579.56 1264.35,579.76 1310.00,579.87" fill="none" stroke="#a4edfa" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="65" y="682" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="24" font-weight="600">right cue</text>
+<text x="65" y="713" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="16">12 steps on, 12 off</text>
+<rect x="260" y="652" width="1050" height="145" rx="7" fill="#1c2a3d"/>
+<path d="M260,797.0 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="802.0" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0</text>
+<path d="M260,724.5 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="729.5" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0.35</text>
+<path d="M260,652.0 H1310" stroke="#43536a" stroke-width="1"/>
+<text x="248" y="657.0" text-anchor="end" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="14">0.7</text>
+<path d="M785.0,652 V797" stroke="#dbe9f5" stroke-opacity="0.65" stroke-dasharray="5 5"/>
+<text x="794.0" y="644" fill="#dbe9f5" font-family="Segoe UI,Arial" font-size="14">cue off</text>
+<polyline points="260.00,797.00 305.65,787.86 351.30,778.72 396.96,771.87 442.61,767.30 488.26,764.44 533.91,762.73 579.57,761.73 625.22,761.16 670.87,760.84 716.52,760.66 762.17,760.56 807.83,760.51 853.48,769.62 899.13,778.74 944.78,785.59 990.43,790.15 1036.09,793.00 1081.74,794.72 1127.39,795.72 1173.04,796.29 1218.70,796.61 1264.35,796.79 1310.00,796.88" fill="none" stroke="#ff59b0" stroke-width="3"/>
+<polyline points="260.00,797.00 305.65,765.13 351.30,733.25 396.96,709.35 442.61,693.41 488.26,683.45 533.91,677.47 579.57,673.99 625.22,671.99 670.87,670.87 716.52,670.25 762.17,669.91 807.83,669.72 853.48,701.49 899.13,733.31 944.78,757.19 990.43,773.11 1036.09,783.06 1081.74,789.04 1127.39,792.52 1173.04,794.51 1218.70,795.63 1264.35,796.25 1310.00,796.60" fill="none" stroke="#45d6f5" stroke-width="3"/>
+<polyline points="260.00,797.00 305.65,780.42 351.30,763.84 396.96,751.40 442.61,743.11 488.26,737.93 533.91,734.82 579.57,733.00 625.22,731.97 670.87,731.38 716.52,731.06 762.17,730.88 807.83,730.79 853.48,747.32 899.13,763.87 944.78,776.29 990.43,784.57 1036.09,789.75 1081.74,792.86 1127.39,794.67 1173.04,795.71 1218.70,796.29 1264.35,796.61 1310.00,796.79" fill="none" stroke="#f5a4d2" stroke-width="3" stroke-dasharray="9 6"/>
+<polyline points="260.00,797.00 305.65,774.67 351.30,752.34 396.96,735.59 442.61,724.42 488.26,717.44 533.91,713.26 579.57,710.81 625.22,709.42 670.87,708.63 716.52,708.20 762.17,707.96 807.83,707.83 853.48,730.09 899.13,752.38 944.78,769.11 990.43,780.26 1036.09,787.24 1081.74,791.42 1127.39,793.86 1173.04,795.26 1218.70,796.04 1264.35,796.48 1310.00,796.72" fill="none" stroke="#a4edfa" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="64" y="884" fill="#c8d8e8" font-family="Segoe UI,Arial" font-size="17">Assumed count normalization and relaxation produce these software traces; they are not recorded fly-neuron activity.</text>
+<text x="64" y="914" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="16">No motor decoder, vehicle episode, training, or biological sign has been selected or tested.</text>
+</svg>

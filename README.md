@@ -16,7 +16,19 @@ FlyAI is a research project testing whether a small, anatomically derived *Droso
 | `figures/` | Generated data and software previews. No figure is a controller performance result. |
 | `protocol/`, `runs/`, `report/` | Reserved for a frozen protocol, recorded runs, and the eventual report. |
 
-The [open issues](docs/issues.md) record unresolved research questions.
+The [open issues](docs/issues.md) record unresolved research questions. The
+[input-side route chart](figures/selected_side_routes.png) shows which
+anatomical input sides can reach each selected descending output; it does not
+establish a motor decoder. The [unsigned response preview](figures/unsigned_rate_probe_v0.png)
+is an exploratory software calculation, not a selected neural model or
+vehicle result. The [rate-to-wheel fixture preview](figures/decoder_fixture_v0.png)
+shows one deterministic software episode and the center-cue bias under an
+assumed decoder. A [second exploratory preview](figures/decoder_fixture_v1.png)
+shows a center-only reference subtraction that removes that bias for the
+current linear probe. Neither is a pilot or validated controller result.
+The [moving-cue smoke preview](figures/dynamic_smoke_v0.png) records two
+training-seed software attempts: D0 collided and D4 timed out. It is not
+a performance estimate or a frozen-model result.
 
 ## Run the software tests
 
@@ -28,7 +40,7 @@ python -m venv .venv
 .venv\Scripts\python.exe -m unittest discover -s tests -p 'test_*.py'
 ```
 
-The local P3 check passed 38 tests on 29 September 2026. Some tests use generated fixtures when those files are available; a fresh clone may report a skip for a local fixture comparison. The [P3 gate review](docs/p3_gate_review_2026-09-29.md) records the exact verification commands and limits.
+The P3 gate check passed 38 tests on 29 September 2026; the current full suite passed 57 after the sparse graph, side-route, unsigned response probe, decoder fixture, and moving-cue smoke checks. Some tests use generated fixtures when those files are available; a fresh clone may report a skip for a local fixture comparison. The [P3 gate review](docs/p3_gate_review_2026-09-29.md) records its exact verification commands and limits.
 
 ## Data and attribution
 

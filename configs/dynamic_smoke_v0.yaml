@@ -1,0 +1,15 @@
+{
+  "version": 0,
+  "status": "exploratory P4 moving-cue software smoke; not pilot, final, or model selection",
+  "dataset": "publication-time 2024 FAFB v783 archive",
+  "controller_config": "configs/decoder_fixture_v1.yaml",
+  "probe_config": "configs/unsigned_rate_probe_v0.yaml",
+  "environment_config": "configs/environment_v1.yaml",
+  "split": "train",
+  "seed": 20000,
+  "scenarios": ["D0", "D4"],
+  "start_pose": "environment default for the named split and seed",
+  "comparison_rule": "same seed/map/heading; reset both probes for each scenario; do not tune settings based on outcomes",
+  "logging": "record observation, four modeled outputs, center reference, wheel command, applied wheels, pose, cue phase, and termination at each available step; pose and phase are logger-only",
+  "scope": "check end-to-end behavior through whichever cue phases occur before termination; retain failures and phase coverage; no pilot metrics or protocol gate claim"
+}

@@ -37,7 +37,21 @@ sign rule and calibrated/verified implementation exist. Route C is the
 fallback if the pilot cannot produce a stable, informative D0 task. This
 recommendation is an inference, not an owner decision or P2 pass.
 
+An [exploratory unsigned response probe](p4_unsigned_rate_probe.md) checks
+count normalization, side-matched inputs, latency, silence, and four named
+readouts on the selected graph. Two [software decoder fixtures](p4_center_cancellation.md)
+now test an uncorrected and a center-cancelled virtual wheel mapping. They
+have no trainable signed gains or pilot result and do not select route B
+for the project.
+
 ## Mapping contract to decide before implementation
+
+The later [input-side route audit](selected_side_routes.md) recounts ordered
+paths from left, center, and right photoreceptors into each named output.
+The left DNp20 output receives 7/18/28 paths and left DNp22 receives
+8/11/36, respectively. Thus an output's anatomical side alone does not
+define a virtual steering direction. This is path reachability, not a
+predicted response; all three route choices above retain that uncertainty.
 
 1. **Inputs:** define an observable virtual cue with left/right/center
    values in a stated range and units. Assign every retained photoreceptor
