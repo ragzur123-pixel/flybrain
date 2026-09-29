@@ -1,0 +1,33 @@
+# Local environments and Python artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Raw downloads are immutable local inputs; retain the manifest in Git.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/manifest.csv
+
+# Generated data and experiment outputs. Keep directory placeholders and source files.
+data/derived/*
+!data/derived/.gitkeep
+runs/pilot/*
+!runs/pilot/.gitkeep
+runs/final_v1/*
+!runs/final_v1/.gitkeep
+
+# Secrets and machine-local settings
+.env
+.env.*
+!.env.example
+
+# Local planning and third-party reference material; public summaries live in README and ROADMAP.
+FlyAI_MASTER_TODO_AND_AGENT_RULES.md
+todo.md
+docs/logbook.md
+docs/workcheck_*.md
+docs/reference/
+fly-brain-figure-4x-*.png
