@@ -1,0 +1,43 @@
+# Comparable work search — P0 E06
+
+Status: bounded screen updated 2026-09-28. This is a check against overclaiming, not a systematic review or a novelty verdict.
+
+## Search record
+
+- Search service: web search, followed by opening each cited primary paper or author preprint. Search date: 2026-09-25.
+- Queries: `Drosophila connectome virtual robot control damage recovery rewiring published paper`; `FlyWire connectome embodied agent navigation graph rewiring control primary paper`; `Drosophila connectome neural controller damage adaptation rewiring graph baseline study`; `connectome based agent sensor ablation retraining structural plasticity Drosophila`; `site:arxiv.org Drosophila connectome damage recovery rewiring navigation`.
+- Follow-up queries, 2026-09-25: `"connectome" "edge editing" "damage" adaptation neural network fly`; `"Drosophila" "structural plasticity" "navigation" connectome model damage recovery`; `"connectome" "rewiring" "sensor loss" navigation adaptation Drosophila`; `"fly connectome" "edge editing" learning perturbation`; `"connectome" "retraining" "lesion" neural network Drosophila`; `"connectome" "edge rewiring" "recovery" neural controller`; `"brain connectome" "edge editing" adaptation simulated robot`; `"fly brain" "rewiring" "adaptation" simulation navigation`.
+- Follow-up queries, 2026-09-28: `2025 2026 connectome neural controller injury adaptation structural plasticity edge rewiring robot simulation paper`; `2024 2025 2026 fly connectome embodied agent lesion recovery retraining rewiring primary study`; `2025 2026 graph neural network post lesion recovery edge rewiring weight adaptation connectome navigation preprint`; `site:arxiv.org drosophila connectome embodied agent sensory loss adaptation structural plasticity`. Opened the author's FLY-lab repository and FlyCNS arXiv v1 full text; search snippets alone were not used as evidence.
+- Focused mechanism queries, 2026-09-28: `"weight adaptation" "structural plasticity" lesion neural network robot navigation experiment`; `"sensor loss" "rewiring" "weights" neural controller robot recovery`; `"structural plasticity" "weight plasticity" damage recovery neural network embodied agent`; `site:arxiv.org "edge editing" "damage" "robot" graph controller`. Opened the primary PLOS ONE article by Knoblauch et al. The search remains bounded; no absence-of-prior-work claim follows.
+- Include studies with a directly inspected primary article/preprint and at least one of: connectome-derived dynamics, embodied control, navigation under sensory loss, topology controls, or rewiring. Exclude search snippets, commentary, and uninspected results from factual comparisons. The screen is English-language and limited to sources surfaced by these queries; it is not exhaustive.
+
+## Directly inspected comparisons
+
+| Work | What it actually covers | Overlap with proposed FlyAI question | Limits for our comparison |
+| --- | --- | --- | --- |
+| Shiu et al., 2024 (FW-025–FW-027) | v630 whole-brain leaky integrate-and-fire model; feeding/grooming sensory-to-output analyses and empirical checks | Connectome-driven sensory-to-output dynamics and perturbation by silencing | Does not itself test a 2D virtual vehicle or FlyAI's planned adaptation matrix |
+| Jin et al., arXiv v3, 2026 (FW-028) | Connectome graph controlling a simulated fly body; random and degree-preserving rewired controls | Embodied controller and two of the proposed topology baselines | Strong prior art for any claim that FlyAI first uses fly wiring for embodied control or these graph baselines |
+| Wang and Chen, arXiv v2, 2026 (FW-029) | FAFB v783 connectome RNN for MuJoCo navigation; sensory-loss/OOD evaluation and a small-world control | Navigation, v783 topology, sensory degradation, graph comparison | Strong prior art for any claim that FlyAI first studies connectome navigation or sensor-loss robustness |
+| Zhang et al., 2025 (FW-030) | Adult-fly network activation under simplified dynamics and rewiring | Topology intervention and dynamics comparison | No virtual vehicle outcome established by the inspected sections |
+| fruitfly-lab project, 2026 (FW-041) | Author-reported v783 reduced visual spiking controller in a browser game and Doom, including scrambled wiring and a lesion condition | Reduced visual circuit, engineered steering readout, topology and lesion controls | Project README results were not reproduced; no learning or post-damage adaptation in its stated scope |
+| Collie et al., *Neuron* 2026 (FW-042) | Biological study of parallel pathways and flexible gain during visual object pursuit | Visual steering and biological adaptation are established phenomena | Gain regulation in flies is not the proposed post-damage `weight_only` versus `edge_edit` model experiment |
+| Recluse, FLY-lab author repository, 2026 (FW-057) | Self-reported v783 connectome/NeuroMechFly comparison with a two-line rule, replayed output, and degree/weight-preserving shuffles. The simple rule and connectome each scored 30/30 per stimulus side on its simple turning task. | Direct warning that a basic turn-left/turn-right task can saturate; motivates a simple-rule diagnostic and pilot task-adequacy check. | Author-run results not reproduced here; used head-bristle input, full-brain model, and NeuroMechFly body, not FlyAI's planned ocellar/2D setup. It did not test dynamic cues, dropouts, or navigation. |
+| Zhang, Lin, and Lu, FlyCNS arXiv v1, 2026-09-23 (FW-058) | BANC brain–cord directional statistics as a weak routing prior for learned quadruped communication under bandwidth limits. | More prior art for connectome-informed embodied control and resource-aware comparison. | Different dataset, abstraction, body, and objective; no inspected post-damage weight-versus-edge-edit experiment. Preprint results are author-reported. |
+| Knoblauch et al., *PLOS ONE* 2014 (FW-059) | Theoretical associative-memory model comparing structural rewiring and existing-weight plasticity; reports higher storage capacity per synapse for its structural model. A 2015 correction replaces Figures 2, 3, and 6. | Establishes prior art for comparing the two plasticity classes at all. | Not a fly-connectome vehicle, sensory-loss recovery, or matched embodied-control experiment; cannot support a FlyAI performance expectation. Use the corrected figures for any figure-level claim. |
+
+## Bounded inference and open novelty question
+
+`INFERENCE`: The broad question “Can a fly connectome control an agent, and does its topology outperform random/rewired controls?” is already substantially covered by Jin et al. and overlaps Wang and Chen. The fruitfly-lab project also reports a **reduced** v783 visual controller with topology and lesion controls, so reduction alone cannot distinguish FlyAI. The current defensible *candidate* contribution is a different source-backed visual-orientation circuit subjected to **paired D0–D4 sensor/motor perturbations**, with a predeclared comparison of **weight-only adaptation versus bounded edge editing** under equal budgets and explicit recovery/cost measures. This is a proposed experimental contrast, not an established novelty claim. Before any originality wording, inspect further work specifically on post-damage retraining and edge editing, and compare exact methods rather than titles alone. Retain ISSUE-005.
+
+FW-059 also rules out saying this is the first comparison of weight changes
+with structural rewiring in a neural model. The defensible question must be
+specific to FlyAI's verified graph, task, damage schedule, matched adaptation
+budget, and recovery/cost outcomes. No result or novelty verdict exists yet.
+
+The follow-up queries surfaced biological plasticity, developmental rewiring, and circuit-navigation studies, but no directly inspected paper in this bounded screen matched the full **post-perturbation weight-only versus edge-editing controller** comparison. That is a search observation, not evidence that no such work exists. Physical synapse formation after injury is also distinct from editing edges in a simulated graph; the latter must be described as a model operation.
+
+**2026-09-28 design consequence:** FLY-lab's negative result is a strong reason
+to include a transparent simple-rule reference and to check whether the
+pilot task distinguishes solvers. This does not expand the required `45S`
+topology/adaptation matrix. The proposed checks and reporting rule are in
+`docs/control_design_note.md`; no baseline or simulator is implemented yet.
