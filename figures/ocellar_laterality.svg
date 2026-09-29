@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<rect width="1280" height="760" fill="#111a2d"/>
+<text x="66" y="66" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="35" font-weight="700">Which side reaches each candidate output?</text>
+<text x="66" y="103" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="19">Publication-time FAFB v783 · unique photoreceptor IDs · exploratory pair threshold 5</text>
+<circle cx="78" cy="148" r="9" fill="#ff5da9"/><text x="98" y="155" fill="#e3eaf3" font-family="Segoe UI,Arial" font-size="17">left</text>
+<circle cx="178" cy="148" r="9" fill="#36d6f2"/><text x="198" y="155" fill="#e3eaf3" font-family="Segoe UI,Arial" font-size="17">right</text>
+<circle cx="288" cy="148" r="9" fill="#ffc96b"/><text x="308" y="155" fill="#e3eaf3" font-family="Segoe UI,Arial" font-size="17">center</text>
+<text x="923" y="155" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="17">fully same-side chain</text>
+<rect x="66" y="171" width="1148" height="57" rx="10" fill="#1b2a40"/>
+<text x="85" y="206" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp22 left</text>
+<text x="263" y="206" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="15">via OCG01</text>
+<rect x="402.0" y="188" width="57.2" height="25" fill="#ff5da9"/>
+<rect x="459.2" y="188" width="250.2" height="25" fill="#36d6f2"/>
+<rect x="709.5" y="188" width="78.7" height="25" fill="#ffc96b"/>
+<text x="798.1" y="207" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="18">54</text>
+<text x="1018" y="207" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="20" font-weight="700">8/54</text>
+<rect x="66" y="242" width="1148" height="57" rx="10" fill="#1b2a40"/>
+<text x="85" y="277" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp28 left</text>
+<text x="263" y="277" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="15">direct</text>
+<rect x="402.0" y="259" width="128.7" height="25" fill="#ff5da9"/>
+<text x="540.7" y="278" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="18">18</text>
+<text x="1018" y="278" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="20" font-weight="700">18/18</text>
+<rect x="66" y="313" width="1148" height="57" rx="10" fill="#1b2a40"/>
+<text x="85" y="348" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp20 left</text>
+<text x="263" y="348" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="15">via OCG01</text>
+<rect x="402.0" y="330" width="50.1" height="25" fill="#ff5da9"/>
+<rect x="452.1" y="330" width="200.2" height="25" fill="#36d6f2"/>
+<rect x="652.2" y="330" width="128.7" height="25" fill="#ffc96b"/>
+<text x="791.0" y="349" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="18">53</text>
+<text x="1018" y="349" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="20" font-weight="700">7/53</text>
+<rect x="66" y="384" width="1148" height="57" rx="10" fill="#1b2a40"/>
+<text x="85" y="419" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp22 right</text>
+<text x="263" y="419" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="15">via OCG01</text>
+<rect x="402.0" y="401" width="236.0" height="25" fill="#ff5da9"/>
+<rect x="638.0" y="401" width="207.4" height="25" fill="#36d6f2"/>
+<rect x="845.3" y="401" width="114.4" height="25" fill="#ffc96b"/>
+<text x="969.7" y="420" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="18">78</text>
+<text x="1018" y="420" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="20" font-weight="700">29/78</text>
+<rect x="66" y="455" width="1148" height="57" rx="10" fill="#1b2a40"/>
+<text x="85" y="490" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp28 right</text>
+<text x="263" y="490" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="15">direct</text>
+<rect x="402.0" y="472" width="221.7" height="25" fill="#36d6f2"/>
+<text x="633.6" y="491" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="18">31</text>
+<text x="1018" y="491" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="20" font-weight="700">31/31</text>
+<rect x="66" y="526" width="1148" height="57" rx="10" fill="#1b2a40"/>
+<text x="85" y="561" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp20 right</text>
+<text x="263" y="561" fill="#afc2d7" font-family="Segoe UI,Arial" font-size="15">via OCG01</text>
+<rect x="402.0" y="543" width="143.0" height="25" fill="#ff5da9"/>
+<rect x="545.0" y="543" width="221.7" height="25" fill="#36d6f2"/>
+<rect x="766.6" y="543" width="93.0" height="25" fill="#ffc96b"/>
+<text x="869.6" y="562" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="18">64</text>
+<text x="1018" y="562" fill="#f1f7ff" font-family="Segoe UI,Arial" font-size="20" font-weight="700">31/64</text>
+<rect x="66" y="637" width="1148" height="91" rx="15" fill="#30414d"/>
+<text x="88" y="669" fill="#ffffff" font-family="Segoe UI,Arial" font-size="19" font-weight="700">Anatomical inputs, not steering commands</text>
+<text x="88" y="697" fill="#d8e4ed" font-family="Segoe UI,Arial" font-size="17">Two-hop totals mix sides. Right DNp28 is flagged outlier_seg. Current Codex counts differ; P1 remains open.</text>
+</svg>

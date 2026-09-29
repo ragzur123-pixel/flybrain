@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "status": "pre-freeze anatomical subnetwork selection; no vehicle behavior used",
+  "format_note": "JSON syntax is a YAML 1.2 subset; parsed with the Python standard library",
+  "dataset": "publication-time 2024 FAFB v783 archive",
+  "annotation_tag": "v2.1.0",
+  "output_roles": ["DNp20", "DNp22"],
+  "output_root_ids": [
+    "720575940615043368",
+    "720575940629390123",
+    "720575940631225996",
+    "720575940644166048"
+  ],
+  "input_role": "photoreceptor",
+  "intermediate_role": "OCG01",
+  "direction": "pre_root_id -> post_root_id",
+  "pair_aggregation": "sum syn_count across neuropil rows for each ordered root-ID pair",
+  "min_pair_synapses": 5,
+  "sensitivity_min_pair_synapses": 1,
+  "path_rule": "retain only eligible photoreceptor -> OCG01 -> selected-output edges that lie on at least one complete two-edge directed route",
+  "side_policy": "all_sides",
+  "side_policy_note": "preserve left, right, and center photoreceptors and all cross-side paths; biological side is retained as metadata, not silently converted into a motor sign",
+  "candidate_status_policy": "fail if any selected-path node has nonblank status; right DNp28 is outside selected roles",
+  "max_nodes": 128,
+  "max_directed_edges": 200,
+  "overflow_policy": "fail without truncation or reranking; record a protocol change before revising limits",
+  "determinism": "sort node IDs numerically and directed edges by numeric pre ID then post ID; no score-based tie-breaking",
+  "output_reachability": "each selected left and right output must have at least one fully same-side photoreceptor -> OCG01 -> output path",
+  "model_weight_rule": "unassigned; preserve anatomical pair_synapses only until P4 equations and sign policy are declared",
+  "sensor_encoding": "unassigned; P3/P4 must explicitly map virtual cues to retained left/right/center photoreceptors",
+  "motor_decoder": "unassigned; P4 must explicitly map four descending readouts to virtual actions",
+  "behavior_data_used_for_selection": false
+}

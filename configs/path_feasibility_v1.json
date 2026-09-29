@@ -1,0 +1,18 @@
+{
+  "status": "C03 anatomical feasibility screen; not C04 circuit selection",
+  "baseline": "publication-time 2024 FAFB v783 archive",
+  "annotation_tag": "v2.1.0",
+  "pair_aggregation": "sum syn_count over all neuropil rows for each ordered pre_root_id -> post_root_id pair",
+  "direction": "presynaptic to postsynaptic only",
+  "primary_min_pair_synapses": 5,
+  "sensitivity_min_pair_synapses": 1,
+  "route_by_output_role": {
+    "DNp28": "photoreceptor -> DNp28 (one directed edge)",
+    "DNp20": "photoreceptor -> OCG01 -> DNp20 (two directed edges)",
+    "DNp22": "photoreceptor -> OCG01 -> DNp22 (two directed edges)"
+  },
+  "side_reporting": "count all biological left/right/center inputs and additionally count fully same-side chains; do not discard mixed-side paths in C03",
+  "feasible_for_screen": "at least one fully same-side photoreceptor reaches each member of a left/right output-role pair at the stated threshold",
+  "candidate_flags": "retain outlier_seg for anatomical feasibility and report it; inclusion is a separate C04 decision",
+  "no_behavior_use": true
+}

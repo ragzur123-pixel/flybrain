@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="780" viewBox="0 0 1320 780">
+<rect width="1320" height="780" fill="#101827"/>
+<text x="76" y="86" fill="#f3f6fb" font-family="Segoe UI,Arial" font-size="39" font-weight="700">Selected circuit: transmitter predictions</text>
+<text x="78" y="125" fill="#b6c2d2" font-family="Segoe UI,Arial" font-size="20">2024 FAFB v783 · 119 neurons · 169 directed connections</text>
+<text x="78" y="218" fill="#edf3fa" font-family="Segoe UI,Arial" font-size="23" font-weight="600">Selected neurons</text>
+<text x="1180" y="218" fill="#b6c2d2" font-family="Segoe UI,Arial" font-size="20" text-anchor="end">n=119</text>
+<rect x="78.00" y="235" width="194.12" height="53" fill="#25bbbc"/>
+<text x="175.06" y="269" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">21</text>
+<rect x="272.12" y="235" width="101.68" height="53" fill="#efba55"/>
+<text x="322.96" y="269" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">11</text>
+<rect x="373.80" y="235" width="804.20" height="53" fill="#d66bb3"/>
+<text x="775.90" y="269" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">87</text>
+<text x="78" y="363" fill="#edf3fa" font-family="Segoe UI,Arial" font-size="23" font-weight="600">Outgoing connections</text>
+<text x="1180" y="363" fill="#b6c2d2" font-family="Segoe UI,Arial" font-size="20" text-anchor="end">n=169</text>
+<rect x="78.00" y="380" width="214.79" height="53" fill="#25bbbc"/>
+<text x="185.40" y="414" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">33</text>
+<rect x="292.79" y="380" width="84.62" height="53" fill="#efba55"/>
+<text x="335.10" y="414" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">13</text>
+<rect x="377.41" y="380" width="800.59" height="53" fill="#d66bb3"/>
+<text x="777.70" y="414" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">123</text>
+<text x="78" y="508" fill="#edf3fa" font-family="Segoe UI,Arial" font-size="23" font-weight="600">Pair-summed synapses</text>
+<text x="1180" y="508" fill="#b6c2d2" font-family="Segoe UI,Arial" font-size="20" text-anchor="end">n=4,434</text>
+<rect x="78.00" y="525" width="378.57" height="53" fill="#25bbbc"/>
+<text x="267.29" y="559" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">1,526</text>
+<rect x="456.57" y="525" width="464.91" height="53" fill="#efba55"/>
+<text x="689.03" y="559" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">1,874</text>
+<rect x="921.48" y="525" width="256.52" height="53" fill="#d66bb3"/>
+<text x="1049.74" y="559" fill="#101827" font-family="Segoe UI,Arial" font-size="22" font-weight="700" text-anchor="middle">1,034</text>
+<rect x="80" y="640" width="22" height="22" fill="#25bbbc"/>
+<text x="116" y="659" fill="#edf3fa" font-family="Segoe UI,Arial" font-size="20">acetylcholine</text>
+<rect x="420" y="640" width="22" height="22" fill="#efba55"/>
+<text x="456" y="659" fill="#edf3fa" font-family="Segoe UI,Arial" font-size="20">glutamate</text>
+<rect x="760" y="640" width="22" height="22" fill="#d66bb3"/>
+<text x="796" y="659" fill="#edf3fa" font-family="Segoe UI,Arial" font-size="20">serotonin</text>
+<rect x="75" y="690" width="1170" height="58" rx="9" fill="#253348"/>
+<text x="94" y="714" fill="#f3f6fb" font-family="Segoe UI,Arial" font-size="19" font-weight="700">0 / 119 confirmed transmitter labels in the pinned annotation</text>
+<text x="94" y="739" fill="#b6c2d2" font-family="Segoe UI,Arial" font-size="17">Predicted transmitter is not a measured synaptic sign or motor response.</text>
+</svg>

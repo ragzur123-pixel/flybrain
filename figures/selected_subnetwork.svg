@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101a2b"/>
+<text x="74" y="71" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="38" font-weight="700">Selected v783 anatomical subnetwork</text>
+<text x="74" y="113" fill="#b8c8da" font-family="Segoe UI,Arial" font-size="20">DNp20 + DNp22 family · 2024 archive · pair minimum 5 · schematic layout</text>
+<text x="74" y="155" fill="#cfe0ed" font-family="Segoe UI,Arial" font-size="21">119 neurons    169 directed connections    4,434 pair-summed synapses</text>
+<circle cx="75" cy="816" r="8" fill="#ff59b0"/>
+<text x="92" y="823" fill="#d4e2ef" font-family="Segoe UI,Arial" font-size="17">left</text>
+<circle cx="230" cy="816" r="8" fill="#e8bd66"/>
+<text x="247" y="823" fill="#d4e2ef" font-family="Segoe UI,Arial" font-size="17">center</text>
+<circle cx="410" cy="816" r="8" fill="#45d6f5"/>
+<text x="427" y="823" fill="#d4e2ef" font-family="Segoe UI,Arial" font-size="17">right</text>
+<text x="290" y="183" text-anchor="middle" fill="#dbe9f5" font-family="Segoe UI,Arial" font-size="23" font-weight="600">Photoreceptors</text>
+<text x="820" y="183" text-anchor="middle" fill="#dbe9f5" font-family="Segoe UI,Arial" font-size="23" font-weight="600">OCG01</text>
+<text x="1330" y="183" text-anchor="middle" fill="#dbe9f5" font-family="Segoe UI,Arial" font-size="23" font-weight="600">Descending outputs</text>
+<path d="M290.0,220.0 C470.0,220.0 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,415.0 C470.0,415.0 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,415.0 C470.0,415.0 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,419.4 C470.0,419.4 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,423.8 C470.0,423.8 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M290.0,423.8 C470.0,423.8 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,428.1 C470.0,428.1 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,432.5 C470.0,432.5 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,432.5 C470.0,432.5 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,432.5 C470.0,432.5 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,615.0 C470.0,615.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,436.9 C470.0,436.9 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,441.2 C470.0,441.2 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,224.2 C470.0,224.2 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,619.0 C470.0,619.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,623.0 C470.0,623.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,445.6 C470.0,445.6 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,445.6 C470.0,445.6 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,445.6 C470.0,445.6 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,228.5 C470.0,228.5 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.58" fill="none"/>
+<path d="M290.0,228.5 C470.0,228.5 640.0,360.0 820.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,627.0 C470.0,627.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,450.0 C470.0,450.0 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,450.0 C470.0,450.0 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,232.7 C470.0,232.7 640.0,276.0 820.0,276.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,232.7 C470.0,232.7 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M820.0,615.0 C1000.0,615.0 1150.0,615.0 1330.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="2.00" fill="none"/>
+<path d="M820.0,615.0 C1000.0,615.0 1150.0,755.0 1330.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.14" fill="none"/>
+<path d="M290.0,454.4 C470.0,454.4 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,458.8 C470.0,458.8 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,458.8 C470.0,458.8 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,463.1 C470.0,463.1 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,237.0 C470.0,237.0 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,237.0 C470.0,237.0 640.0,360.0 820.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,467.5 C470.0,467.5 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M290.0,631.0 C470.0,631.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,241.2 C470.0,241.2 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,245.5 C470.0,245.5 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,635.0 C470.0,635.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,471.9 C470.0,471.9 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,471.9 C470.0,471.9 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,639.0 C470.0,639.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,643.0 C470.0,643.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,643.0 C470.0,643.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,476.2 C470.0,476.2 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,647.0 C470.0,647.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,647.0 C470.0,647.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M290.0,249.7 C470.0,249.7 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,253.9 C470.0,253.9 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M820.0,220.0 C1000.0,220.0 1150.0,360.0 1330.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.79" fill="none"/>
+<path d="M290.0,651.0 C470.0,651.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.57" fill="none"/>
+<path d="M290.0,655.0 C470.0,655.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M820.0,248.0 C1000.0,248.0 1150.0,615.0 1330.0,615.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.27" fill="none"/>
+<path d="M820.0,643.0 C1000.0,643.0 1150.0,755.0 1330.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.08" fill="none"/>
+<path d="M290.0,480.6 C470.0,480.6 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,480.6 C470.0,480.6 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,480.6 C470.0,480.6 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,258.2 C470.0,258.2 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.56" fill="none"/>
+<path d="M290.0,258.2 C470.0,258.2 640.0,332.0 820.0,332.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,262.4 C470.0,262.4 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,659.0 C470.0,659.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,659.0 C470.0,659.0 640.0,671.0 820.0,671.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,659.0 C470.0,659.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,266.7 C470.0,266.7 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,663.0 C470.0,663.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,270.9 C470.0,270.9 640.0,276.0 820.0,276.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,270.9 C470.0,270.9 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.56" fill="none"/>
+<path d="M290.0,485.0 C470.0,485.0 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,489.4 C470.0,489.4 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,667.0 C470.0,667.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,275.2 C470.0,275.2 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,279.4 C470.0,279.4 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.55" fill="none"/>
+<path d="M290.0,279.4 C470.0,279.4 640.0,332.0 820.0,332.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,671.0 C470.0,671.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,675.0 C470.0,675.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,493.8 C470.0,493.8 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,493.8 C470.0,493.8 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,493.8 C470.0,493.8 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,283.6 C470.0,283.6 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,283.6 C470.0,283.6 640.0,332.0 820.0,332.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,679.0 C470.0,679.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M290.0,287.9 C470.0,287.9 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,292.1 C470.0,292.1 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,683.0 C470.0,683.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,687.0 C470.0,687.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,691.0 C470.0,691.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,296.4 C470.0,296.4 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,498.1 C470.0,498.1 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,498.1 C470.0,498.1 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,695.0 C470.0,695.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M820.0,276.0 C1000.0,276.0 1150.0,220.0 1330.0,220.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.87" fill="none"/>
+<path d="M290.0,300.6 C470.0,300.6 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,304.8 C470.0,304.8 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M820.0,671.0 C1000.0,671.0 1150.0,615.0 1330.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.54" fill="none"/>
+<path d="M290.0,309.1 C470.0,309.1 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M820.0,304.0 C1000.0,304.0 1150.0,615.0 1330.0,615.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.39" fill="none"/>
+<path d="M820.0,304.0 C1000.0,304.0 1150.0,755.0 1330.0,755.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.19" fill="none"/>
+<path d="M290.0,699.0 C470.0,699.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,699.0 C470.0,699.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,699.0 C470.0,699.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,502.5 C470.0,502.5 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,703.0 C470.0,703.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,703.0 C470.0,703.0 640.0,671.0 820.0,671.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,703.0 C470.0,703.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M820.0,332.0 C1000.0,332.0 1150.0,360.0 1330.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.44" fill="none"/>
+<path d="M290.0,313.3 C470.0,313.3 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M820.0,360.0 C1000.0,360.0 1150.0,220.0 1330.0,220.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="2.00" fill="none"/>
+<path d="M820.0,360.0 C1000.0,360.0 1150.0,360.0 1330.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="1.07" fill="none"/>
+<path d="M290.0,506.9 C470.0,506.9 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,317.6 C470.0,317.6 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M290.0,707.0 C470.0,707.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,511.2 C470.0,511.2 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,511.2 C470.0,511.2 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,321.8 C470.0,321.8 640.0,360.0 820.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,326.1 C470.0,326.1 640.0,276.0 820.0,276.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,326.1 C470.0,326.1 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.66" fill="none"/>
+<path d="M290.0,330.3 C470.0,330.3 640.0,276.0 820.0,276.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,330.3 C470.0,330.3 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,515.6 C470.0,515.6 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,515.6 C470.0,515.6 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,515.6 C470.0,515.6 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M820.0,699.0 C1000.0,699.0 1150.0,220.0 1330.0,220.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.42" fill="none"/>
+<path d="M820.0,699.0 C1000.0,699.0 1150.0,360.0 1330.0,360.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.08" fill="none"/>
+<path d="M820.0,699.0 C1000.0,699.0 1150.0,615.0 1330.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.58" fill="none"/>
+<path d="M820.0,699.0 C1000.0,699.0 1150.0,755.0 1330.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.63" fill="none"/>
+<path d="M290.0,711.0 C470.0,711.0 640.0,727.0 820.0,727.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M820.0,727.0 C1000.0,727.0 1150.0,755.0 1330.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.78" fill="none"/>
+<path d="M820.0,755.0 C1000.0,755.0 1150.0,220.0 1330.0,220.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="1.24" fill="none"/>
+<path d="M290.0,334.5 C470.0,334.5 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,715.0 C470.0,715.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,520.0 C470.0,520.0 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,520.0 C470.0,520.0 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,520.0 C470.0,520.0 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,338.8 C470.0,338.8 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,719.0 C470.0,719.0 640.0,727.0 820.0,727.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,719.0 C470.0,719.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.53" fill="none"/>
+<path d="M290.0,343.0 C470.0,343.0 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,723.0 C470.0,723.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,723.0 C470.0,723.0 640.0,755.0 820.0,755.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,524.4 C470.0,524.4 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,347.3 C470.0,347.3 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,528.8 C470.0,528.8 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,351.5 C470.0,351.5 640.0,248.0 820.0,248.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,727.0 C470.0,727.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,727.0 C470.0,727.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.54" fill="none"/>
+<path d="M290.0,731.0 C470.0,731.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,355.8 C470.0,355.8 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,533.1 C470.0,533.1 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,533.1 C470.0,533.1 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,735.0 C470.0,735.0 640.0,615.0 820.0,615.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,735.0 C470.0,735.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,739.0 C470.0,739.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,743.0 C470.0,743.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,537.5 C470.0,537.5 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,537.5 C470.0,537.5 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,541.9 C470.0,541.9 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.52" fill="none"/>
+<path d="M290.0,541.9 C470.0,541.9 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,747.0 C470.0,747.0 640.0,671.0 820.0,671.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,747.0 C470.0,747.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.59" fill="none"/>
+<path d="M290.0,546.2 C470.0,546.2 640.0,643.0 820.0,643.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,751.0 C470.0,751.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.50" fill="none"/>
+<path d="M290.0,550.6 C470.0,550.6 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.51" fill="none"/>
+<path d="M290.0,550.6 C470.0,550.6 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,550.6 C470.0,550.6 640.0,671.0 820.0,671.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,755.0 C470.0,755.0 640.0,699.0 820.0,699.0" stroke="#45d6f5" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,360.0 C470.0,360.0 640.0,304.0 820.0,304.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,360.0 C470.0,360.0 640.0,360.0 820.0,360.0" stroke="#ff59b0" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<path d="M290.0,555.0 C470.0,555.0 640.0,220.0 820.0,220.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.49" fill="none"/>
+<path d="M290.0,555.0 C470.0,555.0 640.0,276.0 820.0,276.0" stroke="#e8bd66" stroke-opacity="0.25" stroke-width="0.48" fill="none"/>
+<circle cx="290.0" cy="220.0" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940605067744</title></circle>
+<circle cx="290.0" cy="415.0" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940605867040</title></circle>
+<circle cx="290.0" cy="419.4" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940606127537</title></circle>
+<circle cx="290.0" cy="423.8" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940607293570</title></circle>
+<circle cx="290.0" cy="428.1" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940607378050</title></circle>
+<circle cx="290.0" cy="432.5" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940607493554</title></circle>
+<circle cx="290.0" cy="615.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940608929289</title></circle>
+<circle cx="290.0" cy="436.9" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940608937993</title></circle>
+<circle cx="290.0" cy="441.2" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940609546691</title></circle>
+<circle cx="290.0" cy="224.2" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940610374724</title></circle>
+<circle cx="290.0" cy="619.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940610434372</title></circle>
+<circle cx="290.0" cy="623.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940611757922</title></circle>
+<circle cx="290.0" cy="445.6" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940612789401</title></circle>
+<circle cx="290.0" cy="228.5" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940613652906</title></circle>
+<circle cx="290.0" cy="627.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940614516177</title></circle>
+<circle cx="290.0" cy="450.0" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940614913698</title></circle>
+<circle cx="290.0" cy="232.7" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940614923666</title></circle>
+<circle cx="1330.0" cy="220.0" r="15" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>DNp22 left · 720575940615043368</title></circle>
+<text x="1357" y="226.0" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp22 left</text>
+<circle cx="820.0" cy="615.0" r="11" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>OCG01 right · 720575940615097490</title></circle>
+<circle cx="290.0" cy="454.4" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940616411067</title></circle>
+<circle cx="290.0" cy="458.8" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940617415995</title></circle>
+<circle cx="290.0" cy="463.1" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940617889169</title></circle>
+<circle cx="290.0" cy="237.0" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940617955165</title></circle>
+<circle cx="290.0" cy="467.5" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940618156628</title></circle>
+<circle cx="290.0" cy="631.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940618631965</title></circle>
+<circle cx="290.0" cy="241.2" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940618975296</title></circle>
+<circle cx="290.0" cy="245.5" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940619116096</title></circle>
+<circle cx="290.0" cy="635.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940619228795</title></circle>
+<circle cx="290.0" cy="471.9" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940619305270</title></circle>
+<circle cx="290.0" cy="639.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940619535483</title></circle>
+<circle cx="290.0" cy="643.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940619555638</title></circle>
+<circle cx="290.0" cy="476.2" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940620789894</title></circle>
+<circle cx="290.0" cy="647.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940620800646</title></circle>
+<circle cx="290.0" cy="249.7" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940621004715</title></circle>
+<circle cx="290.0" cy="253.9" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940621097606</title></circle>
+<circle cx="820.0" cy="220.0" r="11" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>OCG01 left · 720575940621202670</title></circle>
+<circle cx="290.0" cy="651.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940621229409</title></circle>
+<circle cx="290.0" cy="655.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940621581409</title></circle>
+<circle cx="820.0" cy="248.0" r="11" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>OCG01 left · 720575940621734126</title></circle>
+<circle cx="820.0" cy="643.0" r="11" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>OCG01 right · 720575940622318085</title></circle>
+<circle cx="290.0" cy="480.6" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940622322857</title></circle>
+<circle cx="290.0" cy="258.2" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940622352161</title></circle>
+<circle cx="290.0" cy="262.4" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940622401825</title></circle>
+<circle cx="290.0" cy="659.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940622427681</title></circle>
+<circle cx="290.0" cy="266.7" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940622475689</title></circle>
+<circle cx="290.0" cy="663.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940622683724</title></circle>
+<circle cx="290.0" cy="270.9" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940623134051</title></circle>
+<circle cx="290.0" cy="485.0" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940623583785</title></circle>
+<circle cx="290.0" cy="489.4" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940623612457</title></circle>
+<circle cx="290.0" cy="667.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940624001318</title></circle>
+<circle cx="290.0" cy="275.2" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940624679403</title></circle>
+<circle cx="290.0" cy="279.4" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940625058279</title></circle>
+<circle cx="290.0" cy="671.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940625093607</title></circle>
+<circle cx="290.0" cy="675.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940625503527</title></circle>
+<circle cx="290.0" cy="493.8" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940625973040</title></circle>
+<circle cx="290.0" cy="283.6" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940626059152</title></circle>
+<circle cx="290.0" cy="679.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940626073232</title></circle>
+<circle cx="290.0" cy="287.9" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940626080304</title></circle>
+<circle cx="290.0" cy="292.1" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940626135344</title></circle>
+<circle cx="290.0" cy="683.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940626310330</title></circle>
+<circle cx="290.0" cy="687.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940626542629</title></circle>
+<circle cx="290.0" cy="691.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940626544677</title></circle>
+<circle cx="290.0" cy="296.4" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940627153241</title></circle>
+<circle cx="290.0" cy="498.1" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940627157534</title></circle>
+<circle cx="290.0" cy="695.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940627175320</title></circle>
+<circle cx="820.0" cy="276.0" r="11" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>OCG01 left · 720575940627552125</title></circle>
+<circle cx="290.0" cy="300.6" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940627555709</title></circle>
+<circle cx="290.0" cy="304.8" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940627594834</title></circle>
+<circle cx="820.0" cy="671.0" r="11" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>OCG01 right · 720575940627702547</title></circle>
+<circle cx="290.0" cy="309.1" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940627877642</title></circle>
+<circle cx="820.0" cy="304.0" r="11" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>OCG01 left · 720575940627972485</title></circle>
+<circle cx="290.0" cy="699.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940628031505</title></circle>
+<circle cx="290.0" cy="502.5" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940628203944</title></circle>
+<circle cx="290.0" cy="703.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940628372484</title></circle>
+<circle cx="820.0" cy="332.0" r="11" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>OCG01 left · 720575940628416232</title></circle>
+<circle cx="290.0" cy="313.3" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940629040625</title></circle>
+<circle cx="820.0" cy="360.0" r="11" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>OCG01 left · 720575940629102891</title></circle>
+<circle cx="290.0" cy="506.9" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940629146640</title></circle>
+<circle cx="290.0" cy="317.6" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940629187407</title></circle>
+<circle cx="1330.0" cy="360.0" r="15" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>DNp20 left · 720575940629390123</title></circle>
+<text x="1357" y="366.0" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp20 left</text>
+<circle cx="290.0" cy="707.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940630068602</title></circle>
+<circle cx="290.0" cy="511.2" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940630241324</title></circle>
+<circle cx="290.0" cy="321.8" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940630371831</title></circle>
+<circle cx="290.0" cy="326.1" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940630424631</title></circle>
+<circle cx="290.0" cy="330.3" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940630460716</title></circle>
+<circle cx="290.0" cy="515.6" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940630693676</title></circle>
+<circle cx="820.0" cy="699.0" r="11" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>OCG01 right · 720575940630751031</title></circle>
+<circle cx="290.0" cy="711.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940631027963</title></circle>
+<circle cx="820.0" cy="727.0" r="11" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>OCG01 right · 720575940631187287</title></circle>
+<circle cx="1330.0" cy="615.0" r="15" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>DNp22 right · 720575940631225996</title></circle>
+<text x="1357" y="621.0" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp22 right</text>
+<circle cx="820.0" cy="755.0" r="11" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>OCG01 right · 720575940631622393</title></circle>
+<circle cx="290.0" cy="334.5" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940631664971</title></circle>
+<circle cx="290.0" cy="715.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940631863883</title></circle>
+<circle cx="290.0" cy="520.0" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940632292748</title></circle>
+<circle cx="290.0" cy="338.8" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940632447535</title></circle>
+<circle cx="290.0" cy="719.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940632827423</title></circle>
+<circle cx="290.0" cy="343.0" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940632940964</title></circle>
+<circle cx="290.0" cy="723.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940633082157</title></circle>
+<circle cx="290.0" cy="524.4" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940633305261</title></circle>
+<circle cx="290.0" cy="347.3" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940634945943</title></circle>
+<circle cx="290.0" cy="528.8" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940635754603</title></circle>
+<circle cx="290.0" cy="351.5" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940636986798</title></circle>
+<circle cx="290.0" cy="727.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940637192846</title></circle>
+<circle cx="290.0" cy="731.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940637362544</title></circle>
+<circle cx="290.0" cy="355.8" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940638002142</title></circle>
+<circle cx="290.0" cy="533.1" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940638342628</title></circle>
+<circle cx="290.0" cy="735.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940638904646</title></circle>
+<circle cx="290.0" cy="739.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940639029830</title></circle>
+<circle cx="290.0" cy="743.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940639041862</title></circle>
+<circle cx="290.0" cy="537.5" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940639391165</title></circle>
+<circle cx="290.0" cy="541.9" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940640075608</title></circle>
+<circle cx="290.0" cy="747.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940640123299</title></circle>
+<circle cx="290.0" cy="546.2" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940641010896</title></circle>
+<circle cx="290.0" cy="751.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940641888731</title></circle>
+<circle cx="290.0" cy="550.6" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940643956896</title></circle>
+<circle cx="1330.0" cy="755.0" r="15" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>DNp20 right · 720575940644166048</title></circle>
+<text x="1357" y="761.0" fill="#f4f8ff" font-family="Segoe UI,Arial" font-size="19" font-weight="600">DNp20 right</text>
+<circle cx="290.0" cy="755.0" r="7" fill="#45d6f5" stroke="#f7fbff" stroke-width="1"><title>photoreceptor right · 720575940645299735</title></circle>
+<circle cx="290.0" cy="360.0" r="7" fill="#ff59b0" stroke="#f7fbff" stroke-width="1"><title>photoreceptor left · 720575940645707886</title></circle>
+<circle cx="290.0" cy="555.0" r="7" fill="#e8bd66" stroke="#f7fbff" stroke-width="1"><title>photoreceptor center · 720575940646679587</title></circle>
+<text x="590" y="823" fill="#b8c8da" font-family="Segoe UI,Arial" font-size="17">Curve direction: left → right. Color shows biological side, not signal sign.</text>
+<text x="75" y="862" fill="#9eb3c8" font-family="Segoe UI,Arial" font-size="16">Archive-derived connectivity only. Node positions are diagrammatic; motor decoding and behavior remain untested.</text>
+</svg>
